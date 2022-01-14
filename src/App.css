@@ -7,40 +7,69 @@
     padding: 0;
 }
 
+
+
+
 .slider {
     position: relative;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image {
-    width: 1000px;
-    height: 600px;
+    height: 400px;
+    width: 600px;
     border-radius: 10px;
     border: 1px solid #010;
-    padding: 5px;
+    padding: 15px;
+    box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+
+}
+
+.image-right-arrow {
+    position: absolute;
+    top: 85%;
+    right: 70%;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.65);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.image-left-arrow {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.65);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cards-main {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem;
+    /*
+    border: 1px solid #000f;
+    */
+    padding-block: 2rem;
+    width: min(95%, 50rem);
+    margin-inline: auto;
     box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
 }
 
-.right-arrow {
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    font-size: 3rem;
-    color: #000;
-    z-index: pointer;
-    user-select: none;
-}
-
-
-.left-arrow {
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    font-size: 3rem;
-    color: #000;
-    z-index: pointer;
-    user-select: none;
+.cards {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    width: auto;
+    height: 330px;
 }
