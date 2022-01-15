@@ -1,26 +1,31 @@
-import React from "react";
-import { Container, Wrapper, Row, Column, Link, Title } from './styles/footer'
+import React from 'react'
+import {
+    FooterContainer,
+    FooterSubscription,
+    FooterSubHeading,
+    FooterSubText,
+    Form,
+    FormInput
 
-export default function Footer({ children, ...restProps}) {
-    return <Container {...restProps}>{children}</Container>
+} from './styles/footer'
+import { Button } from '../../globalStles'
+
+const Footer = () => {
+    return (
+        <FooterContainer>
+            <FooterSubscription>
+                <FooterSubHeading>
+                    Something Something 
+                </FooterSubHeading>
+                <FooterSubText>Will you take the red pill?</FooterSubText>
+                <Form>
+                    <FormInput name="email" type="email" placeholder="Enter Your Email"/>
+                        
+                    <Button fontBig>Yes</Button>
+                </Form>
+            </FooterSubscription>
+        </FooterContainer>
+    )
 }
 
-Footer.Wrapper = function FooterWrapper({ children, ...restProps}) {
-    return <Wrapper {...restProps}>{children}</Wrapper>
-}
-
-Footer.Row = function FooterRow({ children, ...restProps}) {
-    return <Row {...restProps}>{children}</Row>
-}
-
-Footer.Column = function FooterColumn({ children, ...restProps}) {
-    return <Column {...restProps}>{children}</Column>
-}
-
-Footer.Link = function FooterLink({ children, ...restProps}) {
-    return <Link {...restProps}>{children}</Link>
-}
-
-Footer.Title = function FooterTitle({ children, ...restProps}) {
-    return <Title {...restProps}>{children}</Title>
-}
+export default Footer

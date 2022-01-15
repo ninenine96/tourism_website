@@ -1,13 +1,21 @@
 import React from 'react'
-import ImageSlider from '../components/ImageSlider'
-
-import { SliderData } from '../components/SliderData'
+import { InfoSection } from '../components/InfoSection/InfoSection'
+import { 
+    homeObjOne,
+    homeObjTwo,
+    homeObjThree,
+    homeObjFour,
+    homeObjFive
+} from './Data'
 
 const Home = () => {
     return (
         <>
-            <ImageSlider slides={SliderData}/>
-            
+         <InfoSection {...homeObjOne} />  
+         <InfoSection {...homeObjTwo} />  
+         <InfoSection {...homeObjThree} />  
+         <InfoSection {...homeObjFour} />  
+         <InfoSection {...homeObjFive} />  
            
         </>
     )
