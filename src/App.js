@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/index.js'
 import  About from './pages/about/about.js'
-import  Contact_Us from './pages/contact-us/contact-us.js'
+import  ContactUs from './pages/contact-us/contact-us.js'
 import { FooterContainer } from './containers/footer'
 import GlobalStyle from './globalStles';
 import Pricing from './components/pricing/pricing'
@@ -20,7 +20,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/packages' element={<Pricing />} />
           <Route path='/home' element={<Home />} />
-          <Route path='/contactUs' element={<Contact_Us />} />
+          <Route path='/contactUs' element={<ContactUs />} />
         </Routes>
       <FooterContainer />
       
