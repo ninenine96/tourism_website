@@ -20,8 +20,7 @@ import {
     FaFacebook,
     FaInstagram,
     FaYoutube,
-    FaTwitter,
-    FaLinkedin
+    FaTwitter
 } from 'react-icons/fa';
 
 
@@ -32,16 +31,16 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
-                        <FooterLinkTitle>About Us</FooterLinkTitle>
-                        <FooterLink to="/sign-up">Sign Up</FooterLink>
+                        <FooterLinkTitle>Navigation</FooterLinkTitle>
+                        <FooterLink to="/home">Home</FooterLink>
                         <FooterLink to="/packages">Packages</FooterLink>
-                        <FooterLink to="/contact us">Contact Us</FooterLink>
+                        <FooterLink to="/contactUs">Contact Us</FooterLink>
                         <FooterLink to="/about">About</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>    
                     <FooterLinksItems>
-                        <FooterLinkTitle>Videos</FooterLinkTitle>
-                        <FooterLink to="/">YouTube Testimonials</FooterLink>
+                        <FooterLinkTitle>More Info</FooterLinkTitle>
+                        <FooterLink to="/">YouTube</FooterLink>
                         <FooterLink to="/">Kashmir</FooterLink>
                     </FooterLinksItems>
                 <FooterLinksWrapper>    
@@ -82,9 +81,7 @@ const Footer = () => {
                         <FaTwitter />
                         </SocialIconLink>
                         
-                        <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
-                        <FaLinkedin />
-                        </SocialIconLink>
+                        
                     </SocialIcons>
                 </SocialMediaWrap>
             </SocialMedia>

@@ -1,5 +1,4 @@
 import Navbar from './components/Navbar'
-// import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/index.js'
 import  About from './pages/about/about.js'
@@ -7,6 +6,7 @@ import  ContactUs from './pages/contact-us/contact-us.js'
 import { FooterContainer } from './containers/footer'
 import GlobalStyle from './globalStles';
 import Pricing from './components/pricing/pricing'
+import ScrollToTop from './components/ScrollToTop'
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <GlobalStyle />
+      <ScrollToTop />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
