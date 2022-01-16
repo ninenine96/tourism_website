@@ -13,13 +13,13 @@ export const FooterContainer = styled.div`
 
 export const FooterSubscription = styled.section`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: row;
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: #fff;
+  color: #101522;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -35,9 +35,13 @@ export const FooterSubText = styled.p`
 `;
 
 export const Form = styled.form`
+  z-index: 1;
   display: flex;
+  flex-direction: column;
+  max-width: 820px;
+  width: 50%;
   justify-content: center;
-  align-items: center;
+  align-items: ceter;
   @media screen and (max-width: 820px) {
     flex-direction: column;
     width: 80%;
@@ -45,13 +49,19 @@ export const Form = styled.form`
 `;
 
 export const FormInput = styled.input`
+  display: flex;
+  max-width: 820px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   padding: 10px 20px;
-  border-radius: 2px;
+  border-radius: 5px;
   margin-right: 10px;
+  margin-bottom: 10px;
   outline: none;
   border: none;
   font-size: 16px;
-  border: 1px solid #fff;
+  border: 1px solid #101522;
   &::placeholder {
     color: #242424;
   }

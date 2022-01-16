@@ -35,17 +35,6 @@ import {
 const Footer = () => {
     return (
         <FooterContainer>
-            <FooterSubscription>
-                <FooterSubHeading>
-                    Something Something 
-                </FooterSubHeading>
-                <FooterSubText>Will you take the red pill?</FooterSubText>
-                <Form>
-                    <FormInput name="email" type="email" placeholder="Enter Your Email"/>
-                        
-                    <Button fontBig>Yes</Button>
-                </Form>
-            </FooterSubscription>
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
@@ -55,13 +44,13 @@ const Footer = () => {
                         <FooterLink to="/contact us">Contact Us</FooterLink>
                         <FooterLink to="/about">About</FooterLink>
                     </FooterLinksItems>
-                    
+                </FooterLinksWrapper>    
                     <FooterLinksItems>
                         <FooterLinkTitle>Videos</FooterLinkTitle>
                         <FooterLink to="/">YouTube Testimonials</FooterLink>
                         <FooterLink to="/">Kashmir</FooterLink>
                     </FooterLinksItems>
-                    
+                <FooterLinksWrapper>    
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>
                         <FooterLink to="/">Facebook</FooterLink>

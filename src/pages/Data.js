@@ -18,7 +18,7 @@ export const homeObjOne = {
 export const homeObjTwo = {
     primary: false,
     lightBg: true,
-    imgStart: '',
+    imgStart: 'flex-end',
     lightTopLine: false, 
     lightText: false,
     lightTextDesc: false,
@@ -50,7 +50,7 @@ export const homeObjThree = {
 export const homeObjFour = {
     primary: false,
     lightBg: true,
-    imgStart: '',
+    imgStart: 'flex-end',
     lightTopLine: !true, 
     lightText: !true,
     lightTextDesc: !true,
