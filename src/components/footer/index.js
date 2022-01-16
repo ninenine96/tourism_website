@@ -1,12 +1,6 @@
 import React from 'react'
-import { Button } from '../../globalStles'
 import {
     FooterContainer,
-    FooterSubscription,
-    FooterSubHeading,
-    FooterSubText,
-    Form,
-    FormInput,
     FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinksItems,
