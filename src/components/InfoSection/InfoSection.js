@@ -58,7 +58,7 @@ export const InfoSection = ({
     )
 }
 
-export const InfoSection_About = ({ 
+export const InfoSectionAbout = ({ 
     lightBg, 
     imgStart, 
     lightTopLine, 

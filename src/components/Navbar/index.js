@@ -70,7 +70,7 @@ const Navbar = () => {
                         
                         
                             <NavItems>
-                                <NavLink to='/contact-us'>
+                                <NavLink to='/contactUs'>
                                     Contact Us
                                 </NavLink>
                             </NavItems>
