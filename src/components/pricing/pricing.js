@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../../globalStles';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
@@ -23,60 +22,126 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>Our Packages</PricingHeading>
           <PricingContainer>
+            
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Kashmir-Katra-Amritsar Package</PricingCardPlan>
+                <PricingCardCost>RS 39999</PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>Days/Nights: 9</PricingCardFeature>
+                  <PricingCardFeature>Package: Basic</PricingCardFeature> 
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
+            
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Special holiday</PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>5 Night 6 Days </PricingCardFeature>
+                  <PricingCardFeature>Family Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
+            
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Special Honeymoon Package </PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>6 Days</PricingCardFeature>
+                  <PricingCardFeature>Family Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+              </PricingCardInfo>
+            </PricingCard>
+          
+
+            <PricingCard to='/sign-up'>
+              <PricingCardInfo>
+                <PricingCardIcon>
+                  <GiCrystalBars />
+                </PricingCardIcon>
+                <PricingCardPlan>Honeymoon package </PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
+                <PricingCardFeatures>
+                  <PricingCardFeature>6 Days</PricingCardFeature>
+                  <PricingCardFeature>Family Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
+                </PricingCardFeatures>
+              </PricingCardInfo>
+            </PricingCard>
+          </PricingContainer>
+          <PricingContainer>
+          <PricingCard to='/sign-up'>
+              <PricingCardInfo>
+                <PricingCardIcon>
+                  <GiCutDiamond />
+                </PricingCardIcon>
+                <PricingCardPlan>Special Holiday</PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
+                <PricingCardFeatures>
+                  <PricingCardFeature>6 Days</PricingCardFeature>
+                  <PricingCardFeature>Group Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
+                </PricingCardFeatures>
+              </PricingCardInfo>
+            </PricingCard>
+            
+            <PricingCard to='/sign-up'>
+              <PricingCardInfo>
+                <PricingCardIcon>
+                  <GiCrystalBars />
+                </PricingCardIcon>
+                <PricingCardPlan>Katra Kashmir Package </PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
+                <PricingCardFeatures>
+                  <PricingCardFeature>8 Days</PricingCardFeature>
+                  <PricingCardFeature>Family Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
+                </PricingCardFeatures>
+              </PricingCardInfo>
+            </PricingCard>
+            
+            <PricingCard to='/sign-up'>
+              <PricingCardInfo>
+                <PricingCardIcon>
+                  <GiCutDiamond />
+                </PricingCardIcon>
+                <PricingCardPlan>Ladakh Package</PricingCardPlan>
+                <PricingCardCost></PricingCardCost>
+                <PricingCardLength></PricingCardLength>
+                <PricingCardFeatures>
+                  <PricingCardFeature>6 Days</PricingCardFeature>
+                  <PricingCardFeature>Family Package</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
+                </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
         </PricingWrapper>
       </PricingSection>
     </IconContext.Provider>
+    
   );
 }
 export default Pricing;

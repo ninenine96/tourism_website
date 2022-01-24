@@ -46,7 +46,7 @@ const Footer = () => {
                 <FooterLinksWrapper>    
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>
-                        <FooterLink to="/" href="">Facebook</FooterLink>
+                        <FooterLink to="/">Facebook</FooterLink>
                         <FooterLink to="/">Instagram</FooterLink>
                         <FooterLink to="/">WhatsApp</FooterLink>
 

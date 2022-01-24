@@ -44,11 +44,11 @@ export const PricingContainer = styled.div`
 export const PricingCard = styled(Link)`
   background: #242424;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 280px;
-  height: 500px;
+  width: 250px;
+  height: 450px;
   text-decoration: none;
   border-radius: 4px;
-  &:nth-child(2) {
+  &:nth-child(2n+1) {
     margin: 24px;
   }
   &:hover {
@@ -83,7 +83,7 @@ export const PricingCardPlan = styled.h3`
 `;
 
 export const PricingCardCost = styled.h4`
-  font-size: 40px;
+  font-size: 30px;
 `;
 
 export const PricingCardLength = styled.p`
