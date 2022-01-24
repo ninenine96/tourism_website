@@ -1,14 +1,16 @@
 import React from 'react'
-import { InfoSection } from '../components/InfoSection/InfoSection'
+import { InfoSection } from '../../components/InfoSection/InfoSection'
 import { 
     homeObjOne,
     homeObjTwo,
     homeObjThree,
     homeObjFour,
     homeObjFive,
-} from './Data'
+    homeObjSix,
+    homeObjSeven
+} from './data'
 
-const Home = () => {
+const Ladakh = () => {
     return (
         <>
          <InfoSection {...homeObjOne} />  
@@ -16,9 +18,11 @@ const Home = () => {
          <InfoSection {...homeObjThree} />  
          <InfoSection {...homeObjFour} />  
          <InfoSection {...homeObjFive} />  
+         <InfoSection {...homeObjSix} />  
+         <InfoSection {...homeObjSeven} />  
            
         </>
     )
 }
 
-export default Home
+export default Ladakh

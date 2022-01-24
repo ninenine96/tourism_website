@@ -77,3 +77,34 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `;
+
+export const InfoSecFAQ = styled.div`
+  color: #fff;
+  padding: 10px 0;
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+`;
+
+export const TextWrapperFAQ = styled.div`
+  max-width: 90vw;
+  padding-top: 0;
+  padding-bottom: 60px;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 65px;
+  }
+`;
+
+export const HeadingFAQ = styled.h1`
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+`;
+
+export const SubtitleFAQ = styled.p`
+  max-width: 90vw;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+`;

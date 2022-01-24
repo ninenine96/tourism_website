@@ -10,7 +10,11 @@ import {
     Heading,
     Subtitle,
     ImgWrapper,
-    Img
+    Img,
+    HeadingFAQ,
+    SubtitleFAQ,
+    TextWrapperFAQ,
+    InfoSecFAQ
 } from './InfoSection.styles'
 
 
@@ -27,7 +31,8 @@ export const InfoSection = ({
     headline,
     img,
     alt,
-    start
+    start,
+    link
 }) => {
     return (
         <>
@@ -39,7 +44,7 @@ export const InfoSection = ({
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            <Link to='/packages'>
+                            <Link to={link}>
                                 <Button big fontBig primary={primary}>
                                     {buttonLabel}
                                 </Button>
@@ -91,6 +96,27 @@ export const InfoSectionAbout = ({
                 </InfoRow>
               </Container>
           </InfoSec>
+        </>
+    )
+}
+
+export const InfoSectionFAQ = ({ 
+    lightBg,  
+    lightText,
+    headline,
+    description,
+    lightTextDesc
+}) => {
+    return (
+        <>
+          <InfoSecFAQ lightBg={lightBg}>
+              <Container>
+                <TextWrapperFAQ>
+                    <HeadingFAQ lightText={lightText}>{headline}</HeadingFAQ>
+                    <SubtitleFAQ lightTextDesc={lightTextDesc}>{description}</SubtitleFAQ>
+                </TextWrapperFAQ>
+              </Container>
+          </InfoSecFAQ>
         </>
     )
 }

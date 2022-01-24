@@ -39,7 +39,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#fff' }}>    
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to="/">
+                        <NavLogo to="/home">
                             <NavIcon />
                             KV
                         </NavLogo>
@@ -56,15 +56,8 @@ const Navbar = () => {
                         
                         
                             <NavItems>
-                                <NavLink to='/packages'>
-                                    Packages
-                                </NavLink>
-                            </NavItems>
-                        
-                        
-                            <NavItems>
-                                <NavLink to='/about'>
-                                    About
+                                <NavLink to='/tours'>
+                                    Tours
                                 </NavLink>
                             </NavItems>
                         
@@ -72,6 +65,26 @@ const Navbar = () => {
                             <NavItems>
                                 <NavLink to='/contactUs'>
                                     Contact Us
+                                </NavLink>
+                            </NavItems>
+
+                            <NavItems>
+                                <NavLink to='/packages'>
+                                    Packages
+                                </NavLink>
+                            </NavItems>
+                    
+                        
+                            <NavItems>
+                                <NavLink to='/about'>
+                                    About
+                                </NavLink>
+                            </NavItems>
+
+
+                            <NavItems>
+                                <NavLink to='/faq'>
+                                    FAQ
                                 </NavLink>
                             </NavItems>
                         </NavMenu>
