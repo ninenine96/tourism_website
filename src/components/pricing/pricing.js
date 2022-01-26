@@ -25,12 +25,12 @@ function Pricing() {
           <PricingHeading>Our Packages</PricingHeading>
           <PricingContainer>
             
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/trip-kashmir-katra-amritsar'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Kashmir-Katra-Amritsar Package</PricingCardPlan>
+                <PricingCardPlan>Kashmir-Katra-Amritsar</PricingCardPlan>
                 <PricingCardCost>RS 39999</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
@@ -40,13 +40,13 @@ function Pricing() {
               </PricingCardInfo>
             </PricingCard>
             
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/special-holiday'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
                 <PricingCardPlan>Special holiday</PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardCost>RS68000</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>5 Night 6 Days </PricingCardFeature>
@@ -56,79 +56,81 @@ function Pricing() {
               </PricingCardInfo>
             </PricingCard>
             
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/special-honeymoon'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Special Honeymoon Package </PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardPlan>Special Honeymoon</PricingCardPlan>
+                <PricingCardCost>RS40000</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>6 Days</PricingCardFeature>
-                  <PricingCardFeature>Family Package</PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
+                  <PricingCardFeature>Special Package</PricingCardFeature>
+                  <PricingCardFeature>For Couples</PricingCardFeature>
                 </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
           
 
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/honeymoon'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
                 <PricingCardPlan>Honeymoon package </PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardCost>RS40000</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>6 Days</PricingCardFeature>
-                  <PricingCardFeature>Family Package</PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
+                  <PricingCardFeature>Regular Package</PricingCardFeature>
+                  <PricingCardFeature>For Couples</PricingCardFeature>
                 </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
           <PricingContainer>
-          <PricingCard to='/sign-up'>
+          <PricingCard to='/special-holiday-group'>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                  <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Special Holiday</PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardPlan>Special Family Holiday</PricingCardPlan>
+                <PricingCardCost>RS29999</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>6 Days</PricingCardFeature>
+                  <PricingCardFeature>7 Days</PricingCardFeature>
                   <PricingCardFeature>Group Package</PricingCardFeature>
                   <PricingCardFeature></PricingCardFeature>
                 </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
             
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/trip-kashmir-katra'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Katra Kashmir Package </PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardPlan>Katra Kashmir</PricingCardPlan>
+                <PricingCardCost>RS59999</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>8 Days</PricingCardFeature>
-                  <PricingCardFeature>Family Package</PricingCardFeature>
-                  <PricingCardFeature></PricingCardFeature>
+                  <PricingCardFeature>7 Days</PricingCardFeature>
+                  <PricingCardFeature>1 Night Houseboat</PricingCardFeature>
+                  <PricingCardFeature>2 Nights katra</PricingCardFeature>
+                  <PricingCardFeature>1 Night Pahalgam</PricingCardFeature>
+                  <PricingCardFeature>3 Nights Srinagar</PricingCardFeature>
                 </PricingCardFeatures>
               </PricingCardInfo>
             </PricingCard>
             
-            <PricingCard to='/sign-up'>
+            <PricingCard to='/trip-ladakh'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
                 <PricingCardPlan>Ladakh Package</PricingCardPlan>
-                <PricingCardCost></PricingCardCost>
+                <PricingCardCost>RS49500</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>6 Days</PricingCardFeature>
