@@ -38,11 +38,13 @@ const Footer = () => {
                         <FooterLink to="/about">About</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>    
+                <FooterLinksWrapper>   
                     <FooterLinksItems>
                         <FooterLinkTitle>More Info</FooterLinkTitle>
                         <FooterLink to="/">YouTube</FooterLink>
                         <FooterLink to="/">Kashmir</FooterLink>
                     </FooterLinksItems>
+                </FooterLinksWrapper>
                 <FooterLinksWrapper>    
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>

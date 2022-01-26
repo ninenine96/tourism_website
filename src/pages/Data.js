@@ -37,7 +37,7 @@ export const homeObjTwo = {
     start: ''
 }
 export const homeObjThree = {
-    primary: false,
+    primary: !false,
     lightBg: false,
     imgStart: '',
     lightTopLine: true, 
@@ -75,7 +75,7 @@ export const homeObjFour = {
 }
 
 export const homeObjFive = {
-    primary: false,
+    primary: !false,
     lightBg: false,
     imgStart: '',
     lightTopLine: true, 

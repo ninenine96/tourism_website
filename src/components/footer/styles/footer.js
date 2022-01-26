@@ -72,8 +72,8 @@ export const FormInput = styled.input`
 `;
 
 export const FooterLinksContainer = styled.div`
-  width: 100%;
-  max-width: 1000px;
+  width: 85vw;
+  max-width: 85vh;
   display: flex;
   justify-content: center;
   @media screen and (max-width: 820px) {
@@ -92,15 +92,16 @@ export const FooterLinksItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
+  margin: 10px;
   text-align: left;
-  width: 160px;
+  width: 30vh;
   box-sizing: border-box;
   color: #fff;
-  @media screen and (max-width: 420px) {
-    margin: 0;
-    padding: 10px;
+  @media screen and (max-width: 820px) {
+    margin: 5px;
+    padding: 0px;
     width: 100%;
+    align-items: center;
   }
 `;
 
