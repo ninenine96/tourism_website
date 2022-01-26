@@ -6,7 +6,7 @@ import {FaMagento} from 'react-icons/fa'
 
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, #050325 97.5%  );
   height: 80px;
   display: flex;
   justify-content: center;

@@ -1,5 +1,5 @@
 export const homeObjOne = {
-    primary: false,
+    primary: !false,
     lightBg: false,
     imgStart: '',
     lightTopLine: true, 

@@ -34,11 +34,12 @@ export const Button = styled.button`
     outline: none;
     border: none;
     cursor: pointer;
+    box-shadow: 0 0 10px #000000;
 
     &:hover {
         transition: all 0.3s ease-out;
         background: #fff;
-        background: ${({primary}) => (primary ? '#0467FB' : '#1f39cc')};
+        background: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
     }
 
     @media screen and (max-width: 960px){
@@ -47,3 +48,5 @@ export const Button = styled.button`
 `
 
 export default GlobalStyle
+
+
