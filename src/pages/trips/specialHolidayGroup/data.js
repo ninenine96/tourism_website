@@ -1,29 +1,24 @@
 export const trip_kkk = {
-    lightBg: true,
-    imgStart: "flex-end",
-    lightTopLine: !true,
-    lightText: !true,
-    lightTextDesc: !true,
-    headline: 'Special Family Holiday',
-    topLine: '5 Night 6 Days',
-    description: "",
-    img: "holidays.svg",
-    alt: "Image",
-    start: "",
-  };
-  
-  export const homeObjTwo = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  lightBg: !true,
+  imgStart: "flex-end",
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: "Special Family Holiday",
+  topLine: "5 Night 6 Days",
+  description: "",
+  img: "holidays.svg",
+  alt: "Image",
+  start: "",
+};
+
+export const data = [
+  {
     headline: "Itenarary ",
     description: ``,
-  };
-  
-  export const homeObjThree = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 01: Arrival Srinagar – Enjoy The Dal Lake",
     description: `
       A meet and greet has been arranged for you at the Srinagar Airport. Your personalised chauffer cum guide will welcome you at your arrival. 
@@ -32,12 +27,9 @@ export const trip_kkk = {
       night stay and relax yourself with delicious dinner.
       Note (Shakra Ride We Will Provide For 1 Hour if you want enjoy more ride in dal lake that is chargable)
     `,
-  };
-  
-  export const homeObjFour = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: `Day 02: Srinagar - Gulmarg - Srinagar`,
     description: `
       A warm cup of tea with delicious breakfast should get you ready for the day of activity. Leave from your houseboat refreshed and satiated 
@@ -49,12 +41,9 @@ export const trip_kkk = {
       (cable car directly payable) from Gulmarg to Khalinmarg . Overnight in hotel in Srinagar Hotel.
       (Note: All The Activities Are Done On Their Own Cost.)
     `,
-  };
-  
-  export const homeObjFive = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 03 : Srinagar – Pahalgam ",
     description: `
       After breakfast, leave from Srinagar and drive to The journey will take around 1 and half hour and you should visit famous 
@@ -64,10 +53,9 @@ export const trip_kkk = {
                         
       Note (Need Speed Cab For That union Taxi Pahalgam )
     `,
-  };
- 
-  
-  export const homeObjSix = {
+  },
+
+  {
     lightBg: true,
     lightTextDesc: !true,
     lightText: !true,
@@ -79,13 +67,9 @@ export const trip_kkk = {
       trekking is a must in Sonmarg. Check in your hotel for your night stay, Appease your hunger with international cuisine and retire to your bed.
       Note (For Thajiwas Glacier Only Ponies Are Used)
     `,
-  };
-  
-   
-  export const homeObjSeven = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 05: Sonmarg - Srinagar",
     description: `
       After Breakfast Enjoy The City Tour Of Srinagar. Half day tour of world famous Mughal Gardens i.e. Nishat Garden, Shalimar Garden and 
@@ -95,4 +79,5 @@ export const trip_kkk = {
       Cheshma Shahi: Cheshma Shahi (the royal spring), also called Chesham Shahi, is one of the Mughal gardens ) overlooking Dal Lake in Srinagar, 
       Kashmir. After Complete The Sighsteen enjoy The Market In Srinagar Famous Market (Lal Chowk ,City Walk,Kashmir Crafts )
     `,
-  };
+  },
+];

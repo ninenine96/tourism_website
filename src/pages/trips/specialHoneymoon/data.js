@@ -1,42 +1,34 @@
 export const trip_kkk = {
-    lightBg: true,
-    imgStart: "flex-end",
-    lightTopLine: !true,
-    lightText: !true,
-    lightTextDesc: !true,
-    headline: 'Special Honeymoon Package',
-    topLine: '5 Night 6 Days With Candle Light Dinner',
-    description: "",
-    img: "candlelight.svg",
-    alt: "Image",
-    start: "",
-  };
-  
-  export const homeObjTwo = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  lightBg: !true,
+  imgStart: "flex-end",
+  lightTopLine: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: "Special Honeymoon Package",
+  topLine: "5 Night 6 Days With Candle Light Dinner",
+  description: "",
+  img: "candlelight.svg",
+  alt: "Image",
+  start: "",
+};
+
+export const data = [
+  {
     headline: "Itenarary",
     description: `
      `,
-  };
-  
-  export const homeObjThree = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 01: Arrival Srinagar – Enjoy The Dal Lake",
     description: `
       Enjoy The Dal Lake Local sightseeing 50 Kms (Mughal Gardens)
       On arrival at Srinagar Airport, you will be met by our representative/driver at the airport and transfer you to Hotel. 
       Half day tour of world famous Dal Lake. 
     `,
-    };
-  
-  export const homeObjFour = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: `Day 02: Srinagar - Gulmarg - Srinagar`,
     description: `
     After breakfast leave For Gulmarg and start driving towards Gulmarg. Gulmarg (2730 Mtrs Above sea Level) ("Meadow of Flowers") is a town, 
@@ -45,12 +37,9 @@ export const trip_kkk = {
     the Gulmarg that attracts everyone by its natural beauty. Dinner & overnight in Srinagar at Hotel.
     
     `,
-  };
-  
-  export const homeObjFive = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 03 : Srinagar – Pahalgam ",
     description: `
     After breakfast leave from Srinagar and drive towards Pahalgam. Pahalgam 2440 Mtrs above sea level (Valley of Shepherds) on the way visit 
@@ -58,9 +47,9 @@ export const trip_kkk = {
     is at free at its leisure. Dinner & overnight in Pahalgam at Hotel.
 
     `,
-  };
-  
-  export const homeObjSix = {
+  },
+
+  {
     lightBg: true,
     lightTextDesc: !true,
     lightText: !true,
@@ -79,12 +68,9 @@ export const trip_kkk = {
     year in the month of Sawan (Rain). It is famous for snow sledging on a snow bridge.
     In evening move back to srinagar Night stay In Houseboat.
     `,
-  };
-  
-  export const homeObjSeven = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 05: Srinagar-Sonmarg",
     description: `
     
@@ -94,16 +80,13 @@ export const trip_kkk = {
     to Thajwas glacier a major attraction during the summer months. In the evening return back to Resort . Dinner &amp; overnight in 
     Green Glamping Resort at Hotel.
     `,
-  };
-  
-  export const homeObjEight = {
-    lightBg: true,
-    lightTextDesc: !true,
-    lightText: !true,
+  },
+
+  {
     headline: "Day 6: Srinagar Airport Drop",
     description: `
     After breakfast proceed to Airport / to reach your hometown. Holiday Concludes. Let’s stay in touch on Facebook / email and meet again on 
     another memorable Holiday. See you soon!
-    `
-};
-  
+    `,
+  },
+];

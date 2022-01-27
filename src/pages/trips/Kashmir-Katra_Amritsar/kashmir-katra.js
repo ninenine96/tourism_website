@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
 import { Container } from "../../../globalStles";
-import { data } from "./data";
+import { data } from "./datakkk";
 import {
   AccordionSection,
   Wrap,
@@ -12,9 +12,9 @@ import {
 } from "../../../components/InfoSection/InfoSection.styles";
 
 import { InfoSectionAbout } from "../../../components/InfoSection/InfoSection";
-import { trip_kkk } from "./data.js";
+import { trip_kkk } from "./datakkk.js";
 
-const TripLadakh = () => {
+const TripKKK = () => {
   return (
     <>
       <InfoSectionAbout {...trip_kkk} />
@@ -23,7 +23,7 @@ const TripLadakh = () => {
   );
 };
 
-export default TripLadakh;
+export default TripKKK;
 
 export const Accordion = () => {
   const [clicked, setClicked] = useState(false);
