@@ -18,7 +18,6 @@ export const Container = styled.div`
   margin-left: auto;
   padding-left: 50px;
   padding-right: 50px;
-
   @media screen and (max-width: 991px) {
     padding-right: 30px;
     padding-left: 30px;
@@ -43,7 +42,7 @@ export const Button = styled.button`
     background: linear-gradient(
       to right,
       #00c6ff 0%,
-      #0077ff 51%,
+      #00e1ff 51%,
       #00c6ff 100%
     );
   }

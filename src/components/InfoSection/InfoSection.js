@@ -21,6 +21,10 @@ import {
   AccordionSection,
   Wrap,
   Dropdown,
+  InfoSecSlideShow,
+  ImgSS,
+  ContainerSS,
+  HeadingSS,
 } from "./InfoSection.styles";
 
 export const InfoSection = ({
@@ -154,5 +158,18 @@ export const Accordion = () => {
         </Container>
       </AccordionSection>
     </IconContext.Provider>
+  );
+};
+
+export const InfoSectionSlideShow = ({ img, headline }) => {
+  return (
+    <>
+      <ContainerSS>
+        <InfoSecSlideShow>
+          <ImgSS src={img} />
+          <HeadingSS>{headline}</HeadingSS>
+        </InfoSecSlideShow>
+      </ContainerSS>
+    </>
   );
 };

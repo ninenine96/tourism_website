@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const InfoSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: rgb(131, 58, 180);
   background: ${({ lightBg }) =>
     lightBg
       ? "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)"
@@ -32,7 +31,7 @@ export const InfoColumn = styled.div`
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
-    flex-basis: 20%;
+    flex-basis: 100%;
     display: flex;
     justify-content: center;
   }
@@ -81,7 +80,7 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
 
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#1c2237")};
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#08634c")};
   &:hover {
     position: relative;
   }
@@ -195,5 +194,55 @@ export const Dropdown = styled.div`
     margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+`;
+
+export const ContainerSS = styled.div`
+  text-align: center;
+  z-index: 1;
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  @media screen and (max-width: 991px) {
+  }
+`;
+
+export const InfoSecSlideShow = styled.div`
+  display: flex;
+  color: #fff;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+  }
+`;
+
+export const ImgSS = styled.img`
+  height: 816px;
+  width: 100vw;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+`;
+
+export const HeadingSS = styled.h1`
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  margin-bottom: 24px;
+  line-height: 1.1;
+  font-weight: 600;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 86px;
+  letter-spacing: -0.4px;
+  line-height: 82px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px #000;
+  text-transform: uppercase;
+  @media screen {
+    font-size: 54px;
   }
 `;

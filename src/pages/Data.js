@@ -1,10 +1,10 @@
 export const homeObjOne = {
   primary: !false,
-  lightBg: false,
+  lightBg: !false,
   imgStart: "",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: !true,
+  lightText: !true,
+  lightTextDesc: !true,
   link: "/tours",
 
   headline: "Explore Kashmir",
@@ -15,7 +15,7 @@ export const homeObjOne = {
     Kashmir, which is surrounded by the main range of the Himalayas on the northeast and the Pir Panjal Range on the southwest.
     Kashimr is known as ‘Paradise on Earth’, due to its breathtaking beauty. It always offers you scenic views of the alluring nature.`,
   buttonLabel: "View More",
-  img: "nature_polaroid.svg",
+  img: "Ladakh.png",
   alt: "Image",
   start: "",
 };
@@ -93,4 +93,9 @@ export const homeObjFive = {
   img: "camping.svg",
   alt: "Image",
   start: "",
+};
+
+export const slideShow = {
+  headline: "Most affordable packages for kashmir tourism",
+  img: "Kashmir-1.png",
 };
