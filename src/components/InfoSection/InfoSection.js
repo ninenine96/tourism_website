@@ -51,7 +51,7 @@ export const InfoSection = ({
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <Link to={link}>
                   <Button big fontBig primary={primary}>
-                    {buttonLabel}
+                    {buttonLabel}{" "}
                   </Button>
                 </Link>
               </TextWrapper>
