@@ -97,5 +97,5 @@ export const homeObjFive = {
 
 export const slideShow = {
   headline: "Most affordable packages for kashmir tourism",
-  img: "Kashmir-1.png",
+  img: "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
 };

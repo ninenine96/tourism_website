@@ -200,7 +200,7 @@ export const Dropdown = styled.div`
 export const ContainerSS = styled.div`
   text-align: center;
   z-index: 1;
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: block;
   float: none;
   @media screen and (max-width: 991px) {
@@ -217,9 +217,9 @@ export const InfoSecSlideShow = styled.div`
 `;
 
 export const ImgSS = styled.img`
-  height: 816px;
+  min-height: 460px;
   width: 100vw;
-  background-size: cover !important;
+  background-size: contain important;
   background-repeat: no-repeat !important;
   position: relative;
 `;
@@ -229,20 +229,22 @@ export const HeadingSS = styled.h1`
   position: absolute;
   top: 50%;
   left: 50%;
-
+  text-shadow: 2px 2px #00000057;
   transform: translate(-50%, -50%);
   margin-bottom: 24px;
-  line-height: 1.1;
+  line-height: 2;
   font-weight: 600;
   z-index: 2;
   color: #ffffff;
-  font-size: 86px;
+  font-size: 76px;
   letter-spacing: -0.4px;
   line-height: 82px;
   font-weight: bolder;
   text-shadow: 1px 1px 10px #000;
   text-transform: uppercase;
-  @media screen {
-    font-size: 54px;
+  @media screen and (max-width: 765px) {
+    font-size: 32px;
+    line-height: 1.5;
+    transform: translate(-50%, -60%);
   }
 `;
