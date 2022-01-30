@@ -3,7 +3,7 @@ import {
   InfoSection,
   InfoSectionSlideShow,
 } from "../components/InfoSection/InfoSection";
-import Contact_Us from "./contact-us/contact-us";
+import ContactUs from "./contact-us/contact-us";
 
 import {
   homeObjOne,
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <InfoSectionSlideShow {...slideShow} />
-      <Contact_Us />
+      <ContactUs />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />

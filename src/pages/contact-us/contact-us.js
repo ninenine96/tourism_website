@@ -9,7 +9,7 @@ import {
 import { InfoSecForm } from "../../components/InfoSection/InfoSection.styles";
 import { Button } from "../../globalStles";
 
-const Contact_Us = () => {
+const ContactUs = () => {
   return (
     <>
       <InfoSecForm>
@@ -45,4 +45,4 @@ const Contact_Us = () => {
   );
 };
 
-export default Contact_Us;
+export default ContactUs;
