@@ -1,9 +1,19 @@
-import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { FaMagento } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background: radial-gradient( circle 550px at 90% 90%,  rgba(5,8,114,1) 0%, #050325 97.5% );
+  background: radial-gradient(
+    circle 550px at 90% 90%,
+    rgba(5, 8, 114, 1) 0%,
+    #050325 97.5%
+  );
+  /* background: radial-gradient(
+    circle 1900px at 90% 10%,
+    #13630f 0%,
+    rgba(3, 28, 0, 1) 24%
+  ); */
+
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -23,7 +33,8 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-bottom: 24px;
   font-size: 24px;
 `;
@@ -56,7 +67,7 @@ export const FormInput = styled.input`
   padding: 10px 20px;
   border-radius: 5px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   outline: none;
   border: none;
   font-size: 16px;
@@ -71,10 +82,11 @@ export const FormInput = styled.input`
 `;
 
 export const FooterLinksContainer = styled.div`
-  width: 85vw;
-  max-width: 85vh;
+  width: 90vw;
+
   display: flex;
   justify-content: center;
+  align-content: space-between;
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
@@ -82,6 +94,7 @@ export const FooterLinksContainer = styled.div`
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  align-items: flex-start;
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
@@ -90,7 +103,7 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinksItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+
   margin: 10px;
   text-align: left;
   width: 30vh;
@@ -100,12 +113,16 @@ export const FooterLinksItems = styled.div`
     margin: 5px;
     padding: 0px;
     width: 100%;
-    align-items: center;
+    align-items: left;
   }
 `;
 
 export const FooterLinkTitle = styled.h2`
   margin-bottom: 16px;
+`;
+export const FooterLinkP = styled.p`
+  margin-bottom: 10px;
+  text-align: left;
 `;
 
 export const FooterLink = styled(Link)`
@@ -166,3 +183,27 @@ export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
 `;
+export const Label = styled.label``;
+export const Selection = styled.select`
+  display: flex;
+  max-width: 820px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border: 1px solid #101522;
+  background: #fff;
+  color: #242424;
+  @media screen and (max-width: 820px) {
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+`;
+
+export const Option = styled.option``;

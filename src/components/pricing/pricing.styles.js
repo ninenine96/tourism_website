@@ -1,19 +1,22 @@
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 export const PricingSection = styled.div`
-  padding: 100px 0 160px;
+  padding: 10px 0 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: radial-gradient(
+    circle 610px at 5.2% 1.6%,
+    rgba(5, 8, 114, 1) 0%,
+    #050325 97.5%
+  );
 `;
 
 export const PricingWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   @media screen and (max-width: 960px) {
     margin: 0 30px;
     display: flex;
@@ -41,15 +44,18 @@ export const PricingContainer = styled.div`
   }
 `;
 
-export const PricingCard = styled(Link)`
-  background: #242424;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 250px;
+export const PricingCard = styled(Link).attrs((props) => ({
+  background: props.background || "#000000",
+}))`
+  background: no-repeat ${(props) => props.background};
+  box-shadow: 0 6px 20px rgba(248, 248, 248, 0.274);
+  width: 300px;
   height: 450px;
   text-decoration: none;
+  text-shadow: 0 0 3px #000000;
   border-radius: 4px;
-  &:nth-child(2n+1) {
-    margin: 24px;
+  &:nth-child(2n + 1) {
+    margin: 50px;
   }
   &:hover {
     transform: scale(1.06);
@@ -64,13 +70,15 @@ export const PricingCard = styled(Link)`
   }
 `;
 
-export const PricingCardInfo = styled.div`
+export const PricingCardInfo = styled.div.attrs((props) => ({
+  color: props.color || "#fff",
+}))`
+  color: ${(props) => props.color};
   display: flex;
   flex-direction: column;
   height: 500px;
   padding: 24px;
   align-items: center;
-  color: #fff;
 `;
 
 export const PricingCardIcon = styled.div`
@@ -80,10 +88,12 @@ export const PricingCardIcon = styled.div`
 export const PricingCardPlan = styled.h3`
   margin-bottom: 5px;
   font-size: 24px;
+  text-align: center;
 `;
 
 export const PricingCardCost = styled.h4`
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 10px;
 `;
 
 export const PricingCardLength = styled.p`
@@ -91,15 +101,19 @@ export const PricingCardLength = styled.p`
   margin-bottom: 24px;
 `;
 
-export const PricingCardFeatures = styled.ul`
+export const PricingCardFeatures = styled.ul.attrs((props) => ({
+  color: props.color || " #a9b3c1 ",
+}))`
+  color: ${(props) => props.color};
   margin: 16px 0 32px;
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #a9b3c1;
 `;
 
 export const PricingCardFeature = styled.li`
   margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-shadow: 0 0 9px #000000;
 `;

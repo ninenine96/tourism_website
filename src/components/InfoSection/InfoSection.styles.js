@@ -5,7 +5,7 @@ export const InfoSec = styled.div`
   padding: 160px 0;
   background: ${({ lightBg }) =>
     lightBg
-      ? "linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%)"
+      ? "linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%)"
       : "radial-gradient( circle 610px at 5.2% 1.6%,  rgba(5,8,114,1) 0%, #050325 97.5% )"};
   @media screen and (max-width: 768px) {
     padding: 20px 0;
@@ -26,7 +26,7 @@ export const InfoColumn = styled.div`
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
-  max-width: 50%;
+  max-width: 100%;
   flex-basis: 50%;
 
   @media screen and (max-width: 768px) {
@@ -68,8 +68,7 @@ export const TopLine = styled.div`
 export const Img = styled.img`
   padding-right: 0;
   border: 0;
-  max-width: 100%;
-  vertical-align: middle;
+  max-width: inherit;
   display: inline-block;
   max-height: 500px;
 `;
@@ -218,6 +217,7 @@ export const InfoSecSlideShow = styled.div`
 
 export const ImgSS = styled.img`
   min-height: 460px;
+  height: 700px;
   width: 100vw;
   background-size: contain important;
   background-repeat: no-repeat !important;
@@ -246,5 +246,19 @@ export const HeadingSS = styled.h1`
     font-size: 32px;
     line-height: 1.5;
     transform: translate(-50%, -60%);
+  }
+`;
+
+export const InfoSecForm = styled.div`
+  display: flex;
+  color: #000000;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(70deg, #e9defa 0%, #fbfcdb 100%);
+  @media screen and (max-width: 768px) {
+    padding: 20px 0;
+    padding-bottom: 60px;
   }
 `;

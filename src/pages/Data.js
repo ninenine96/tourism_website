@@ -40,11 +40,11 @@ export const homeObjTwo = {
 };
 export const homeObjThree = {
   primary: !false,
-  lightBg: false,
+  lightBg: !false,
   imgStart: "",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: !true,
+  lightText: !true,
+  lightTextDesc: !true,
   link: "/tours",
 
   headline: "Treat Yourself",
@@ -66,11 +66,11 @@ export const homeObjFour = {
   lightTextDesc: !true,
   link: "/tours",
 
-  headline: "Conquer The Mountains",
+  headline: "Camping Trip",
   topLine: "SNOW!?",
   description: `Kashmir is the only place which offers overmuch activities to do like Trekking, ice Skating,Skiing, River Rafting, Paragliding etc. 
     Kashmir offers Summer Activities  like Pony Ride,Cable care Ride, ATV Ride Etc...`,
-  buttonLabel: "You wont pick this one",
+  buttonLabel: "View More",
   img: "winter_wonderland.svg",
   alt: "Image",
   start: "",
@@ -78,11 +78,11 @@ export const homeObjFour = {
 
 export const homeObjFive = {
   primary: !false,
-  lightBg: false,
+  lightBg: !false,
   imgStart: "",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: !true,
+  lightText: !true,
+  lightTextDesc: !true,
   link: "/tours",
 
   headline: "Visit Kashmir Now!",

@@ -4,6 +4,12 @@ import { Container } from "../../globalStles";
 import { FaMagento } from "react-icons/fa";
 
 export const Nav = styled.nav`
+  /* background: linear-gradient(
+    90deg,
+    rgba(73, 149, 0, 1) 0%,
+    rgba(28, 119, 24, 1) 2%,
+    rgba(3, 28, 0, 1) 10%
+  ); */
   background: radial-gradient(
     circle 610px at 5.2% 51.6%,
     rgba(5, 8, 114, 1) 0%,
@@ -64,18 +70,22 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 95vw;
-
     position: absolute;
     top: 80px;
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 149, 30, 1) 1%,
+      rgba(28, 119, 24, 1) 3%,
+      rgba(3, 28, 0, 1) 34%
+    );
   }
 `;
 
 export const NavItems = styled.li`
-  height: 80p;
+  height: 80px;
   border-bottom: 2px solid transparent;
 
   &:hover {
@@ -132,4 +142,13 @@ export const NavBtnLink = styled(Link)`
   width: 100%;
   border: none;
   outline: none;
+`;
+export const NavItemsPhone = styled.div`
+  border: 0px;
+  padding-top: 3px;
+  font-size: 15px;
+  justify-content: flex-end;
+`;
+export const NavPhoneNumber = styled.p`
+  color: #fdfdda;
 `;

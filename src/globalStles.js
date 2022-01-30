@@ -23,7 +23,9 @@ export const Container = styled.div`
     padding-left: 30px;
   }
 `;
-export const Button = styled.button`
+export const Button = styled.button.attrs((props) => ({
+  margin: props.mt || "0 0 0 0px",
+}))`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? "#4B59F7" : "#0467FB")};
   white-space: nowrap;
@@ -33,6 +35,7 @@ export const Button = styled.button`
   outline: none;
   border: none;
   cursor: pointer;
+  margin: ${(props) => props.mt};
   box-shadow: ${({ primary }) =>
     primary ? "0 0 19px #cecece;" : "0 0 10px #000000;"};
 
