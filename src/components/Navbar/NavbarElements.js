@@ -75,11 +75,10 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: linear-gradient(
-      90deg,
-      rgba(0, 149, 30, 1) 1%,
-      rgba(28, 119, 24, 1) 3%,
-      rgba(3, 28, 0, 1) 34%
+    background: radial-gradient(
+      circle 610px at 5.2% 1.6%,
+      rgba(5, 8, 114, 1) 0%,
+      #050325 97.5%
     );
   }
 `;

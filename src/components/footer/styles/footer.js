@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
   background: radial-gradient(
-    circle 550px at 90% 90%,
+    circle 650px at 5% 95%,
     rgba(5, 8, 114, 1) 0%,
     #050325 97.5%
   );

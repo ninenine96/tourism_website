@@ -60,7 +60,7 @@ const Navbar = () => {
               </NavItems>
 
               <NavItems>
-                <NavLink to="/packages">Packages</NavLink>
+                <NavLink to="/packages">Destinations</NavLink>
               </NavItems>
 
               <NavItems>

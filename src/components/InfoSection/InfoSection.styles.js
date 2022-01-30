@@ -31,7 +31,7 @@ export const InfoColumn = styled.div`
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
-    flex-basis: 100%;
+    flex-basis: 50%;
     display: flex;
     justify-content: center;
   }
@@ -68,7 +68,7 @@ export const TopLine = styled.div`
 export const Img = styled.img`
   padding-right: 0;
   border: 0;
-  max-width: inherit;
+  max-width: 100%;
   display: inline-block;
   max-height: 500px;
 `;
@@ -212,13 +212,14 @@ export const InfoSecSlideShow = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 768px) {
+    width: 100%;
   }
 `;
 
 export const ImgSS = styled.img`
   min-height: 460px;
   height: 700px;
-  width: 100vw;
+  width: 100%;
   background-size: contain important;
   background-repeat: no-repeat !important;
   position: relative;

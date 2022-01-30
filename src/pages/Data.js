@@ -15,7 +15,7 @@ export const homeObjOne = {
     Kashmir, which is surrounded by the main range of the Himalayas on the northeast and the Pir Panjal Range on the southwest.
     Kashimr is known as ‘Paradise on Earth’, due to its breathtaking beauty. It always offers you scenic views of the alluring nature.`,
   buttonLabel: "View More",
-  img: "Ladakh.png",
+  img: "https://images.unsplash.com/photo-1627301430822-8e177bb1455e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
   alt: "Image",
   start: "",
 };

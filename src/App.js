@@ -18,6 +18,7 @@ import TripKK from "./pages/trips/Kashmir-Katra/kashmir-katra";
 import TripLadakh from "./pages/trips/trip-ladakh/ladakh";
 import Footer from "./components/footer";
 import Reviews from "./components/gReviews";
+import Hotels from "./pages/hotels/Hotels";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         <Route path="/trip-kashmir-katra" element={<TripKK />} />
         <Route path="/trip-ladakh" element={<TripLadakh />} />
         <Route path="/reviews" element={<Reviews />} />
+        <Route path="/hotels" element={<Hotels />} />
       </Routes>
       <Footer />
     </Router>
