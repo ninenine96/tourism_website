@@ -40,8 +40,8 @@ const Navbar = () => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/home">
-              <NavIcon />
-              KV
+              <NavIcon src="logo_white.png" />
+              Kashmir Vendor
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

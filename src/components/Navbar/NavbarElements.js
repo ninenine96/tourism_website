@@ -1,7 +1,6 @@
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "../../globalStles";
-import { FaMagento } from "react-icons/fa";
 
 export const Nav = styled.nav`
   /* background: linear-gradient(
@@ -38,13 +37,14 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled.img`
   margin-right: 0.5rem;
+  height: 40px;
 `;
 
 export const MobileIcon = styled.div`

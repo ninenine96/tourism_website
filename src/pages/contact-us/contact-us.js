@@ -26,7 +26,7 @@ const ContactUs = () => {
       )
       .then(
         () => {
-          window.alert("Success.");
+          window.alert("Form Submitted! We shall get back to you soon.");
         },
         (error) => {
           window.alert(error.text);
@@ -70,6 +70,7 @@ const ContactUs = () => {
             type="number"
             placeholder="Number Of Kids (leave blank if none)"
           />
+          <FormInput name="days" type="number" placeholder="Number Of Days" />
           <Selection name="packages" type="packages">
             <Option value="">Choose A Package</Option>
             <Option value="Kashmir-Katra-Amritsar">

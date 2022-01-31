@@ -27,7 +27,7 @@ export const Button = styled.button.attrs((props) => ({
   margin: props.mt || "0 0 0 0px",
 }))`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? "#4B59F7" : "#0467FB")};
+  background: ${({ primary }) => (primary ? "#0467FB" : "#0467FB")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
   color: #fff;
@@ -37,7 +37,7 @@ export const Button = styled.button.attrs((props) => ({
   cursor: pointer;
   margin: ${(props) => props.mt};
   box-shadow: ${({ primary }) =>
-    primary ? "0 0 19px #cecece;" : "0 0 10px #000000;"};
+    primary ? "0 0 10px #000000;" : "0 0 10px #000000;"};
 
   &:hover {
     transition: all 0.3s ease-out;

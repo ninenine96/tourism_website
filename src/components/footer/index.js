@@ -14,6 +14,7 @@ import {
   SocialIcons,
   SocialIconLink,
   FooterLinkP,
+  FooterURL,
 } from "./styles/footer";
 
 import {
@@ -57,31 +58,38 @@ const Footer = () => {
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>More Info</FooterLinkTitle>
-            <FooterLink to="/reviews">Reviews</FooterLink>
             <FooterLink to="/hotels">Hotels</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/">Facebook</FooterLink>
-            <FooterLink to="/">Instagram</FooterLink>
-            <FooterLink to="/">WhatsApp</FooterLink>
+            <FooterURL href="https://facebook.com">Facebook</FooterURL>
+            <FooterURL href="https://Instagram.com">Instagram</FooterURL>
+            <FooterURL href="https://whatsapp.com">WhatsApp</FooterURL>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to="/">
-            <SocialIcon />
+            <SocialIcon src="logo_white.png" />
           </SocialLogo>
           <WebsiteRights>M.R. Sofi © 2022</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+            <SocialIconLink
+              href="https://facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+            >
               <FaFacebook />
             </SocialIconLink>
 
-            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+            <SocialIconLink
+              href="https://Instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </SocialIconLink>
 

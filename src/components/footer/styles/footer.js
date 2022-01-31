@@ -135,6 +135,16 @@ export const FooterLink = styled(Link)`
   }
 `;
 
+export const FooterURL = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  &:hover {
+    color: #0467fb;
+    transition: 0.3s ease-out;
+  }
+`;
+
 export const SocialMedia = styled.section`
   max-width: 1000px;
   width: 100%;
@@ -163,8 +173,9 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(FaMagento)`
+export const SocialIcon = styled.img`
   margin-right: 10px;
+  height: 40px;
 `;
 
 export const WebsiteRights = styled.small`
