@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel_Reviews from "../components/carousel/Carousel";
+import CarouselReviews from "../components/carousel/Carousel";
 import {
   InfoSection,
   InfoSectionSlideShow,
@@ -25,7 +25,7 @@ const Home = () => {
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
-      <Carousel_Reviews />
+      <CarouselReviews />
     </>
   );
 };
