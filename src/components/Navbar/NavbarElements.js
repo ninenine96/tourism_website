@@ -150,4 +150,5 @@ export const NavItemsPhone = styled.div`
 `;
 export const NavPhoneNumber = styled.p`
   color: #fdfdda;
+  display: flex;
 `;

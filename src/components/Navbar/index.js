@@ -52,7 +52,7 @@ const Navbar = () => {
               </NavItems>
 
               <NavItems>
-                <NavLink to="/tours">Tours</NavLink>
+                <NavLink to="/tours">Destinations</NavLink>
               </NavItems>
 
               <NavItems>
@@ -60,7 +60,7 @@ const Navbar = () => {
               </NavItems>
 
               <NavItems>
-                <NavLink to="/packages">Destinations</NavLink>
+                <NavLink to="/packages">Packages</NavLink>
               </NavItems>
 
               <NavItems>

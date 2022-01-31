@@ -49,13 +49,13 @@ export const PricingCard = styled(Link).attrs((props) => ({
 }))`
   background: no-repeat ${(props) => props.background};
   box-shadow: 0 6px 20px rgba(248, 248, 248, 0.274);
-  width: 300px;
+  width: 20vw;
   height: 450px;
   text-decoration: none;
   text-shadow: 0 0 3px #000000;
   border-radius: 4px;
   &:nth-child(2n + 1) {
-    margin: 50px;
+    margin: 40px;
   }
   &:hover {
     transform: scale(1.06);

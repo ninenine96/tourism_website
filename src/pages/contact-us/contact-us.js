@@ -8,7 +8,7 @@ import {
 } from "../../components/footer/styles/footer";
 import { InfoSecForm } from "../../components/InfoSection/InfoSection.styles";
 import { Button } from "../../globalStles";
-
+import { InfoSectionAbout } from "../../components/InfoSection/InfoSection";
 import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
@@ -35,8 +35,22 @@ const ContactUs = () => {
     e.target.reset();
   };
 
+  const dataContactUs = {
+    lightBg: true,
+    imgStart: "flex-end",
+    lightTopLine: !true,
+    lightText: !true,
+    lightTextDesc: !true,
+    headline: "Contact Us",
+    topLine: "",
+    description: "Enter your details and our team will contact you.",
+    img: "contact_us.svg",
+    alt: "Image",
+    start: "",
+  };
   return (
     <>
+      <InfoSectionAbout {...dataContactUs} />
       <InfoSecForm>
         <Form ref={form} onSubmit={sendEmail}>
           <Paragraph>
