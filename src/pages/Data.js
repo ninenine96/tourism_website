@@ -30,11 +30,11 @@ export const homeObjTwo = {
   lightTextDesc: false,
   link: "/packages",
 
-  headline: "No its not Switzerland it's Kashmir",
-  topLine: "Don't worry about budget we are here ",
-  description: `Captivating Beauty of Kashmir never fails to charm tourists around the world. It is the marvelous place Natural Switzerland . Everyone dreams to visit Kashmir due to its unspoiled natural beauty.
-    Kashmir is mostly famous among the Couples for Honeymoon Tours,Anniversary tours and  for Trekking lovers, Kashmir has everything that you are hunting.`,
-  buttonLabel: "Find your hooneymoon package",
+  headline: "Switzerland? No! it's Kashmir",
+  topLine: "Don't worry about budget we are here",
+  description: `Captivating Beauty of Kashmir never fails to charm tourists around the world. It is the marvelous place Natural Switzerland. Everyone dreams to visit Kashmir due to its unspoiled natural beauty.
+    Kashmir is mostly famous among the Couples for Honeymoon Tours, Anniversary tours and for Trekking lovers, Kashmir has everything that you are hunting.`,
+  buttonLabel: "Honeymoon Packages",
   img: "https://images.unsplash.com/photo-1491582990992-68ec88e070a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
   alt: "Image",
   start: "",

@@ -6,6 +6,9 @@ export const CarouselWrapper = styled.div`
   height: 300px;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 900px) {
+    height: auto;
+  }
 `;
 
 export const Item = styled.div`

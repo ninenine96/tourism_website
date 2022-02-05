@@ -43,6 +43,29 @@ export const InfoSection = ({
   start,
   link,
 }) => {
+  const spanStyle = {
+    color: "#0056f5cc",
+    cursor: "Pointer",
+  };
+  function ReadMore({ children, maxCharacterCount }) {
+    const text = children;
+
+    const [isTruncated, setiSTruncated] = useState(true);
+
+    const resultString = isTruncated ? text.slice(0, maxCharacterCount) : text;
+
+    function toggleisTruncated() {
+      setiSTruncated(!isTruncated);
+    }
+    return (
+      <p>
+        {resultString}
+        <span onClick={toggleisTruncated} style={spanStyle}>
+          {isTruncated ? " ...view more" : " ...view less"}
+        </span>
+      </p>
+    );
+  }
   return (
     <>
       <InfoSec lightBg={lightBg}>
@@ -52,7 +75,9 @@ export const InfoSection = ({
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>
+                  <ReadMore maxCharacterCount={150}>{description}</ReadMore>
+                </Subtitle>
                 <Link to={link}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}{" "}
