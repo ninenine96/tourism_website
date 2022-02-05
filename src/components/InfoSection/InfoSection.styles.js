@@ -31,7 +31,7 @@ export const InfoColumn = styled.div`
 
   @media screen and (max-width: 768px) {
     max-width: 100%;
-    flex-basis: 50%;
+    flex-basis: 100%;
     display: flex;
     justify-content: center;
   }
@@ -78,7 +78,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-
+  text-align: left;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#08634c")};
   &:hover {
     position: relative;

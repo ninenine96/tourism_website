@@ -20,20 +20,6 @@ const Navbar = () => {
 
   const handleClick = () => setClick(!click);
 
-  // const showButton = () => {
-  //     if(window.innerWidth <= 960) {
-  //         setButton(false)
-  //     } else {
-  //         setButton(true)
-  //     }
-  // }
-
-  // useEffect(() => {
-  //     showButton();
-  //   }, []);
-
-  // window.addEventListener('resize', showButton)
-
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -41,7 +27,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/home">
               <NavIcon src="logo_white.png" />
-              Kashmir Vendor
+              KV
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}

@@ -1,9 +1,8 @@
 import React from "react";
+import Cards from "../components/Cards";
 import CarouselReviews from "../components/carousel/Carousel";
-import {
-  InfoSection,
-  InfoSectionSlideShow,
-} from "../components/InfoSection/InfoSection";
+import HeroSection from "../components/HeroSection";
+import { InfoSection } from "../components/InfoSection/InfoSection";
 import ContactUs from "./contact-us/contact-us";
 
 import {
@@ -12,20 +11,21 @@ import {
   homeObjThree,
   homeObjFour,
   homeObjFive,
-  slideShow,
 } from "./Data";
 
 const Home = () => {
   return (
     <>
-      <InfoSectionSlideShow {...slideShow} />
-      <ContactUs />
+      <HeroSection />
+      <Cards />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
+
       <CarouselReviews />
+      <ContactUs />
     </>
   );
 };

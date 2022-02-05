@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import {
   Form,
   FormInput,
-  FooterSubText as Paragraph,
   Selection,
   Option,
 } from "../../components/footer/styles/footer";
@@ -53,10 +52,6 @@ const ContactUs = () => {
       <InfoSectionAbout {...dataContactUs} />
       <InfoSecForm>
         <Form ref={form} onSubmit={sendEmail}>
-          <Paragraph>
-            Enter Your Contacts Details and we will get back to you shortly
-            <br></br>
-          </Paragraph>
           <FormInput
             name="name"
             type="text"

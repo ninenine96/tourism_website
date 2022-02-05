@@ -14,14 +14,14 @@ export const Nav = styled.nav`
     rgba(5, 8, 114, 1) 0%,
     #050325 97.5%
   );
-  height: 80px;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 2;
 `;
 
 export const NavbarContainer = styled(Container)`
