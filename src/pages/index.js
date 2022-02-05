@@ -1,8 +1,11 @@
 import React from "react";
 import Cards from "../components/Cards";
+import CardSlider from "../components/CardSlider";
 import CarouselReviews from "../components/carousel/Carousel";
+
 import HeroSection from "../components/HeroSection";
 import { InfoSection } from "../components/InfoSection/InfoSection";
+
 import ContactUs from "./contact-us/contact-us";
 
 import {
@@ -18,12 +21,12 @@ const Home = () => {
     <>
       <HeroSection />
       <Cards />
+      <CardSlider />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
-
       <CarouselReviews />
       <ContactUs />
     </>
