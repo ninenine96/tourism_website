@@ -7,8 +7,43 @@
   align-items: center;
   justify-content: center;
 }
-
 #slider {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#slider-srinagar {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#slider-gulmarg {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#slider-pahalgam {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#slider-sonmarg {
   width: 95%;
   height: 100%;
 

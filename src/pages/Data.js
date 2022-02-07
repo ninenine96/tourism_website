@@ -101,3 +101,41 @@ export const slideShow = {
     "It is better to visit Kashmir once, than to hear about it a thousand times",
   img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 };
+
+export const slides = [
+  {
+    image:
+      "https://images.unsplash.com/photo-1574140843105-b668f16a1da4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+    title: "Gulmarg",
+    description: "Sking, Horse riding, exploring",
+    path: "/pricing",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1446757981584-845b14aa7dd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    title: "Ladakh",
+    description: "Don't let your Ladakh dreams be memes.",
+    path: "/pricing",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2129&q=80",
+    title: "Srinagar",
+    description: "Explore the city of gardens today!",
+    path: "/tours",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1546172091-2ffc0a366798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    title: "Sonmarg",
+    description: "Visit the Golden Mountains of Sonmarg.",
+    path: "/tours",
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1587020319791-74ecee4229d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFoYWxnYW18ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    title: "Pahalgam",
+    description: "Green grassfields and snowcapped mountains.",
+    path: "/tours",
+  },
+];

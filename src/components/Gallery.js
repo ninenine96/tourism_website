@@ -120,7 +120,7 @@ const IMAGES = [
 export const GalleryComponent = () => {
   return (
     <div>
-      <h1 className="gallery-heading">Gallery</h1>
+      <h1 className="gallery-heading"> Image Gallery</h1>
       <div className="container-gallery">
         <div className="media-scroller">
           <Gallery

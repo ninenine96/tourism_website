@@ -13,6 +13,7 @@ import {
   homeObjThree,
   homeObjFour,
   homeObjFive,
+  slides,
 } from "./Data";
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
       <HeroSection />
 
       <Cards />
-      <CardSlider />
+      <CardSlider slides={slides} />
       <GalleryComponent />
       <InfoSection animate={{ x: "200%" }} {...homeObjOne} />
 

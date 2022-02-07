@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button, Button2 } from "./Button";
 import "./HeroSection.css";
 
 function HeroSection() {
@@ -15,13 +15,13 @@ function HeroSection() {
         >
           VIEW PACKAGES
         </Button>
-        <Button
+        <Button2
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           CONTACT US <i className="far fa-play-circle" />
-        </Button>
+        </Button2>
       </div>
     </div>
   );
