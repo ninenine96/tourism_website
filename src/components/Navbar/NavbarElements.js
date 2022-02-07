@@ -21,7 +21,7 @@ export const Nav = styled.nav`
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 19;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -127,7 +127,7 @@ export const NavItemBtn = styled.li`
     justify-conent: center;
     align-items: center;
     width: 100%;
-    height: 120ex;
+    height: 120px;
   }
 `;
 
@@ -143,12 +143,11 @@ export const NavBtnLink = styled(Link)`
   outline: none;
 `;
 export const NavItemsPhone = styled.div`
-  border: 0px;
-  padding-top: 3px;
-  font-size: 15px;
-  justify-content: flex-end;
+  display: flex;
+  border: none;
+  padding-top: 13px;
+  font-size: 13px;
 `;
 export const NavPhoneNumber = styled.p`
   color: #fdfdda;
-  display: flex;
 `;

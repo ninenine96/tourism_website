@@ -1,5 +1,5 @@
 #slider-container {
-  width: 100vw;
+  width: auto;
   height: 305px;
   background: linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);
   position: relative;

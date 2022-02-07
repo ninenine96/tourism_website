@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 100px 0;
   background: ${({ lightBg }) =>
     lightBg
       ? "linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%)"
@@ -20,6 +20,11 @@ export const InfoRow = styled.div`
   align-items: center;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
+export const ImgWrapper = styled.div`
+  max-width: auto;
+  display: flex;
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+`;
 
 export const InfoColumn = styled.div`
   margin-bottom: 15px;
@@ -27,30 +32,32 @@ export const InfoColumn = styled.div`
   padding-left: 15px;
   flex: 1;
   max-width: 100%;
-  flex-basis: 50%;
+  flex-basis: 10%;
+
+  ${ImgWrapper} {
+    width: 45vw;
+    height: auto;
+    object-fit: contain;
+    @media screen {
+      width: auto;
+    }
+  }
 
   @media screen and (max-width: 900px) {
     max-width: 100%;
-    flex-basis: 100%;
+    width: 100vw;
+    flex-basis: 50%;
     display: flex;
     justify-content: center;
   }
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
-
   @media screen and (max-width: 768px) {
     padding-bottom: 25px;
   }
-`;
-
-export const ImgWrapper = styled.div`
-  max-width: 555px;
-  display: flex;
-  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `;
 
 export const TopLine = styled.div`

@@ -58,12 +58,12 @@ export const InfoSection = ({
       setiSTruncated(!isTruncated);
     }
     return (
-      <p>
+      <>
         {resultString}
         <span onClick={toggleisTruncated} style={spanStyle}>
           {isTruncated ? " ...view more" : " ...view less"}
         </span>
-      </p>
+      </>
     );
   }
   return (

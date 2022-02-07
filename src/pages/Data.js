@@ -52,7 +52,7 @@ export const homeObjThree = {
   topLine: "Pack your trekking bags to hunt nature ",
   description: `Kashmir is surrounded by High Mountains, sloppy Hills, Breezing springs, virgin forests. That adds Unmached charm in the beauty of Kashmir. God has sanctified all the beauty of nature on Kashmir only,
     There is not any spectrum that can map the beauty of Kashmir.`,
-  buttonLabel: "View Places and Packages ",
+  buttonLabel: "View Packages ",
   img: "https://images.unsplash.com/photo-1530804458434-67fe207c3a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   alt: "Image",
   start: "",
