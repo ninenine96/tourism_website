@@ -120,15 +120,14 @@ const IMAGES = [
 export const GalleryComponent = () => {
   return (
     <div>
+      {/* {document.addEventListener("touchstart", onTouchStart, { passive: true })} */}
       <h1 className="gallery-heading"> Image Gallery</h1>
       <div className="container-gallery">
-        <div className="media-scroller">
-          <Gallery
-            enableImageSelection={false}
-            backdropClosesModal={true}
-            images={IMAGES}
-          />
-        </div>
+        <Gallery
+          enableImageSelection={false}
+          backdropClosesModal={true}
+          images={IMAGES}
+        />
       </div>
     </div>
   );

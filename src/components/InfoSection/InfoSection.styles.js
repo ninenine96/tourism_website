@@ -61,12 +61,13 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#7e3373")};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
+
   @media screen {
     font-size: 12px;
   }
@@ -78,6 +79,8 @@ export const Img = styled.img`
   max-width: 100%;
   display: inline-block;
   max-height: 500px;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Heading = styled.h1`
@@ -86,7 +89,8 @@ export const Heading = styled.h1`
   line-height: 1.1;
   font-weight: 600;
   text-align: left;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#08634c")};
+
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#372c04")};
   &:hover {
     position: relative;
   }
@@ -103,7 +107,7 @@ export const Subtitle = styled.p`
   text-align: justify;
   text-justify: inter-cluster;
 
-  color: ${({ lightTextDesc }) => (lightTextDesc ? "#d1d1d1" : "#1c2237")};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? "#d1d1d1" : "#505874")};
   @media screen and (max-width: 760px) {
     font-size: 14px;
     line-height: 18px;

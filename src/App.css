@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 .container-gallery {
   display: grid;
   background: linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);

@@ -31,7 +31,7 @@ const CarouselReviews = () => {
     <InfoSec lightBg="true">
       <CarouselWrapper>
         <Heading>What our customers thought</Heading>
-        <Carousel itemsToShow={2} enableAutoPlay autoPlaySpeed={10000}>
+        <Carousel itemsToShow={1} enableAutoPlay autoPlaySpeed={50000}>
           <Item>
             <Name>Gayatri Trivedi</Name>
             <FaStar />
