@@ -24,7 +24,7 @@ const Home = () => {
       <Cards />
       <CardSlider slides={slides} />
       <GalleryComponent />
-      <InfoSection animate={{ x: "200%" }} {...homeObjOne} />
+      <InfoSection {...homeObjOne} />
 
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />

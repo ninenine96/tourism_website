@@ -108,14 +108,14 @@ export const slides = [
       "https://images.unsplash.com/photo-1574140843105-b668f16a1da4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
     title: "Gulmarg",
     description: "Sking, Horse riding, exploring",
-    path: "/pricing",
+    path: "/packages",
   },
   {
     image:
       "https://images.unsplash.com/photo-1446757981584-845b14aa7dd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     title: "Ladakh",
     description: "Don't let your Ladakh dreams be memes.",
-    path: "/pricing",
+    path: "/packages",
   },
   {
     image:

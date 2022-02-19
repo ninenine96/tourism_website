@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars, FaPhone } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import "./styles.css";
 import {
   Nav,
   NavLogo,
@@ -22,6 +23,7 @@ const Navbar = () => {
 
   return (
     <>
+      <NavbarPhone />
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
@@ -59,12 +61,6 @@ const Navbar = () => {
                 <NavLink to="/faq">FAQ</NavLink>
               </NavItems>
             </NavMenu>
-            <NavItemsPhone>
-              <NavPhoneNumber>
-                <FaPhone />
-                {"\t"}+919622660909
-              </NavPhoneNumber>
-            </NavItemsPhone>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
@@ -73,3 +69,19 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+const NavbarPhone = () => {
+  return (
+    <div className="nav">
+      <div className="navBarPhone">
+        <NavItemsPhone>
+          <NavPhoneNumber>
+            Phone:{"\t"}
+            <FaPhone />
+            {"\t"}+919622660909
+          </NavPhoneNumber>
+        </NavItemsPhone>
+      </div>
+    </div>
+  );
+};

@@ -52,6 +52,25 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
+
+#slider-packagestop {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+#slider-packagesbottom {
+  width: 95%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
 #slider::-webkit-scrollbar {
   display: none;
 }

@@ -228,3 +228,97 @@ export const CardSliderHotelsSonmarg = ({ slides }) => {
     </div>
   );
 };
+
+export const CardSliderPackagesTop = ({ slides }) => {
+  const slideLeft = () => {
+    const slider = document.getElementById("slider-packagestop");
+    slider.scrollLeft -= 500;
+  };
+  const slideRight = () => {
+    const slider = document.getElementById("slider-packagestop");
+    slider.scrollLeft += 500;
+  };
+
+  return (
+    <div id="slider-container">
+      <MdChevronLeft
+        size={40}
+        className="slider-icon left"
+        onClick={slideLeft}
+        // handleScroll={handleScrollLeft}
+      />
+      <div id="slider-packagestop">
+        {slides.map((slide, index) => {
+          return (
+            <Link to={slide.path ? slide.path : "/home"}>
+              <div className="slider-card" key={index}>
+                <div
+                  className="slider-card-image"
+                  style={{
+                    backgroundImage: `url(${slide.image})`,
+                    backgroundSize: "cover",
+                  }}
+                ></div>
+
+                <p className="slider-card-title">{slide.title}</p>
+                <p className="slider-card-description">{slide.description}</p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      <MdChevronRight
+        size={40}
+        className="slider-icon right"
+        onClick={slideRight}
+      />
+    </div>
+  );
+};
+
+export const CardSliderPackagesBottom = ({ slides }) => {
+  const slideLeft = () => {
+    const slider = document.getElementById("slider-packagesbottom");
+    slider.scrollLeft -= 500;
+  };
+  const slideRight = () => {
+    const slider = document.getElementById("slider-packagesbottom");
+    slider.scrollLeft += 500;
+  };
+
+  return (
+    <div id="slider-container">
+      <MdChevronLeft
+        size={40}
+        className="slider-icon left"
+        onClick={slideLeft}
+        // handleScroll={handleScrollLeft}
+      />
+      <div id="slider-packagesbottom">
+        {slides.map((slide, index) => {
+          return (
+            <Link to={slide.path ? slide.path : "/home"}>
+              <div className="slider-card" key={index}>
+                <div
+                  className="slider-card-image"
+                  style={{
+                    backgroundImage: `url(${slide.image})`,
+                    backgroundSize: "cover",
+                  }}
+                ></div>
+
+                <p className="slider-card-title">{slide.title}</p>
+                <p className="slider-card-description">{slide.description}</p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      <MdChevronRight
+        size={40}
+        className="slider-icon right"
+        onClick={slideRight}
+      />
+    </div>
+  );
+};

@@ -19,3 +19,9 @@ body {
   background: linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);
   padding: 50px;
 }
+
+.packages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(90deg, #e9defa 0%, #fbfcdb 100%);
+}

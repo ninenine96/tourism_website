@@ -55,12 +55,7 @@ const Footer = () => {
             </FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
-        <FooterLinksWrapper>
-          <FooterLinksItems>
-            <FooterLinkTitle>More Info</FooterLinkTitle>
-            <FooterLink to="/hotels">Hotels</FooterLink>
-          </FooterLinksItems>
-        </FooterLinksWrapper>
+
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>

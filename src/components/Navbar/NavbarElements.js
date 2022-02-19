@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     rgba(5, 8, 114, 1) 0%,
     #050325 97.5%
   );
-  height: 10vh;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,5 +150,5 @@ export const NavItemsPhone = styled.div`
   font-size: 13px;
 `;
 export const NavPhoneNumber = styled.p`
-  color: #fdfdda;
+  color: #f7f7f7;
 `;
