@@ -49,3 +49,49 @@ function Cards() {
 }
 
 export default Cards;
+
+export const CardAbout = () => {
+  return (
+    <div className="cards">
+      <h1>Our Team</h1>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
+            <CardItem
+              src="/images/Rubina.jpeg"
+              text="Rubina Kar"
+              label="CEO"
+              path=""
+            />
+            <CardItem
+              src="/images/SalesRep.jpeg"
+              text="Nazhar Bashir"
+              label="Co-Partner"
+              path=""
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src="/images/employee.jpeg"
+              text="Najma Khan"
+              label="Sales Manager"
+              path=""
+            />
+            <CardItem
+              src="/images/munna.jpg"
+              text="Muzaffar Khan"
+              label="Operational Manager"
+              path=""
+            />
+            <CardItem
+              src="/images/dev.jpg"
+              text="Mohammad Rohan"
+              label="Developer"
+              path=""
+            />
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};

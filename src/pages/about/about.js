@@ -1,16 +1,12 @@
-import React from 'react'
-import { InfoSectionAbout } from '../../components/InfoSection/InfoSection'
-import { 
-    homeObjOne,
-} from './data'
+import React from "react";
 
+import { CardAbout } from "../../components/Cards";
 const About = () => {
-    return (
-        <>
-         <InfoSectionAbout {...homeObjOne} />   
-           
-        </>
-    )
-}
+  return (
+    <>
+      <CardAbout />
+    </>
+  );
+};
 
-export default About
+export default About;
