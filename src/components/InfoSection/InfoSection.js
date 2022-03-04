@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Button, Container } from "../../globalStles";
-import { data } from "../../pages/faq/data";
+
 import {
   InfoSec,
   InfoRow,
@@ -14,10 +14,6 @@ import {
   Subtitle,
   ImgWrapper,
   Img,
-  HeadingFAQ,
-  SubtitleFAQ,
-  TextWrapperFAQ,
-  InfoSecFAQ,
   AccordionSection,
   Wrap,
   Dropdown,
