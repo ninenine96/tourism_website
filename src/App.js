@@ -19,6 +19,11 @@ import TripLadakh from "./pages/trips/trip-ladakh/ladakh";
 import Footer from "./components/footer";
 import Reviews from "./components/gReviews";
 import Hotels from "./pages/hotels/Hotels";
+import Doodhpatheri from "./pages/trips/dhoothpatheri/dhoodhpatheri";
+import TripTulipGarden from "./pages/trips/tulip_garden/TulipGarden";
+import TripSrinagar from "./pages/trips/Trip-srinagar/TripSrinagar";
+import SpecialLadakh from "./pages/trips/LadakhBonfire/SpecialLadakh";
+import TripAharbal from "./pages/trips/aharbal/TripAharbal";
 
 function App() {
   return (
@@ -44,7 +49,12 @@ function App() {
         <Route path="/special-honeymoon" element={<SpecialHoneymoon />} />
         <Route path="/honeymoon" element={<Honeymoon />} />
         <Route path="/trip-kashmir-katra" element={<TripKK />} />
-        <Route path="/trip-ladakh" element={<TripLadakh />} />
+        <Route path="/trip-special-ladakh" element={<TripLadakh />} />
+        <Route path="/trip-ladakh" element={<SpecialLadakh />} />
+        <Route path="/trip-doodhpatheri" element={<Doodhpatheri />} />
+        <Route path="/trip-tulipgarden" element={<TripTulipGarden />} />
+        <Route path="/trip-srinagar" element={<TripSrinagar />} />
+        <Route path="/trip-aharbal" element={<TripAharbal />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/hotels" element={<Hotels />} />
       </Routes>

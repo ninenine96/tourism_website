@@ -6,7 +6,8 @@ export const homeObjOne = {
   lightTextDesc: true,
   headline: "Frequently Asked Questions",
   topLine: "FAQ",
-  description: "",
+  description:
+    "Check our FAQ section below for common queries. Feel free to contact us for any additional information or questions.",
   img: "faq.svg",
   alt: "Image",
   start: "",
@@ -20,8 +21,7 @@ export const data = [
   },
   {
     headline: "Has the internet been restored in Kashmir?",
-    description:
-      "The internet ban has been lifted in Kashmir, but with certain terms and conditions. Internet services have resumed on postpaid mobiles across 12 districts of Jammu and Kashmir. The ban on social media sites however remains intact.",
+    description: "Yes! The internet is fully restored in Kashmir.",
   },
   {
     headline: "Do I need special permission while travelling to Kashmir?",
@@ -41,7 +41,7 @@ export const data = [
   {
     headline: "How much would a Kashmir holiday cost?",
     description:
-      "Thomas Cook has packages starting from a budget of INR 12,999 to an extravagant INR 42,999. Check the Thomas Cook website to browse through our list of packages.",
+      "Our packages start from a budget of INR 12,999 to an extravagant INR 42,999. Check our packages for more information.",
   },
   {
     headline: "What is the best time of the year to travel to Kashmir?",
@@ -72,7 +72,7 @@ export const data = [
   {
     headline: "Are there hotels in Kashmir?",
     description:
-      "Yes, there are quite a few hotels in Kashmir. However, Thomas Cook will take care of all your accommodation booking hassles.",
+      "Yes, there are quite a few hotels in Kashmir. We shall take care of your hotel needs, rest assured.",
   },
 
   {

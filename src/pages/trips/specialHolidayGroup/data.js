@@ -7,7 +7,7 @@ export const trip_kkk = {
   headline: "Special Family Holiday",
   topLine: "5 Night 6 Days",
   description: "",
-  img: "holidays.svg",
+  img: "https://images.unsplash.com/photo-1579457870378-16e766c0c266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
   alt: "Image",
   start: "",
 };

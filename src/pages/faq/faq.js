@@ -1,15 +1,15 @@
 import React from "react";
 import {
   Accordion,
-  InfoSectionAbout,
+  InfoSectionFAQ,
 } from "../../components/InfoSection/InfoSection";
-import { homeObjOne } from "./data";
+import { homeObjOne, data } from "./data";
 
 const FAQ = () => {
   return (
     <>
-      <InfoSectionAbout {...homeObjOne} />
-      <Accordion />
+      <InfoSectionFAQ {...homeObjOne} />
+      <Accordion data={data} />
     </>
   );
 };

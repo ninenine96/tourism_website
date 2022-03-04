@@ -120,3 +120,12 @@ h1 {
     width: 80vw;
   }
 }
+
+.heading {
+  padding-top: 20px;
+}
+
+.paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}

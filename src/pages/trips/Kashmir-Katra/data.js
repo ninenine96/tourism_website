@@ -7,7 +7,7 @@ export const trip_kkk = {
   headline: "Kashmir-Katra",
   topLine: "",
   description: ``,
-  img: "trip_kkk.svg",
+  img: "https://images.unsplash.com/photo-1642474620271-58886d90551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   alt: "Image",
   start: "",
 };

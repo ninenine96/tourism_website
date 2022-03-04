@@ -1,17 +1,16 @@
 import React from "react";
-import { data } from "./data";
 
 import { Accordion } from "../../../components/InfoSection/InfoSection";
 import { InfoSectionAbout } from "../../../components/InfoSection/InfoSection";
-import { trip_kkk } from "./data.js";
+import { trip, data } from "./data.js";
 
-const SpecialHoneymoon = () => {
+const SpecialLadakh = () => {
   return (
     <>
-      <InfoSectionAbout {...trip_kkk} />
+      <InfoSectionAbout {...trip} />
       <Accordion data={data} />
     </>
   );
 };
 
-export default SpecialHoneymoon;
+export default SpecialLadakh;

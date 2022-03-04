@@ -159,22 +159,44 @@ export const InfoSectionAbout = ({
   );
 };
 
-export const InfoSectionFAQ = ({ headline, description }) => {
+export const InfoSectionFAQ = ({
+  lightBg,
+  imgStart,
+  lightTopLine,
+  lightText,
+  lightTextDesc,
+  description,
+  topLine,
+  headline,
+  img,
+  alt,
+  start,
+}) => {
   return (
     <>
-      <InfoSecFAQ lightBg={true}>
+      <InfoSec lightBg={lightBg}>
         <Container>
-          <TextWrapperFAQ>
-            <HeadingFAQ>{headline}</HeadingFAQ>
-            <SubtitleFAQ>{description}</SubtitleFAQ>
-          </TextWrapperFAQ>
+          <InfoRow imgStart={imgStart}>
+            <InfoColumn>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+              </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
+            </InfoColumn>
+          </InfoRow>
         </Container>
-      </InfoSecFAQ>
+      </InfoSec>
     </>
   );
 };
 
-export const Accordion = () => {
+export const Accordion = ({ data }) => {
   const [clicked, setClicked] = useState(false);
 
   const toggle = (index) => {
