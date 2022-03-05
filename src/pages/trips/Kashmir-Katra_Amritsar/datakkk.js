@@ -16,7 +16,7 @@ export const trip_kkk = {
     In Srinagar at Shankaracharya Temple After Lord Shiva Darshan Most Yatris visit Gulmarg, Pahalgam, and Srinagar where you can enjoy Dal Lake 
     With Shikhra Ride Houseboat, Mughal Gardens Nishat, Shalimar and Pari mahal.
   `,
-  img: "images/trip_kkk.svg",
+  img: "https://images.unsplash.com/photo-1642474620271-58886d90551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   alt: "Image",
   start: "",
 };

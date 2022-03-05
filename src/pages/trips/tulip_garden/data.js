@@ -6,7 +6,18 @@ export const trip = {
   lightTextDesc: true,
   headline: "Tulip Gardens",
   topLine: "",
-  description: ``,
+  description: `Asia's largest tulip garden, named the Indira Gandhi Memorial Tulip Garden,
+
+  Garden, in the foothills of the Zabarwan Mountains on the bank of Dal Lake,
+  
+  with an overview of Dal Lake. The festival is held annually in the month of April.
+  
+  In April when tulips are in full bloom. The sprawling tulips in a variety of colours
+  
+  They make the garden look like a silken carpet with intricate designs. The scene is
+  
+  It is simply captivating with floral charm and is a memorable delight for a visitor.
+  `,
   img: "https://images.unsplash.com/photo-1605369513349-e92f99e87d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
   alt: "Image",
   start: "",

@@ -9,6 +9,7 @@ import {
   homeObjFour,
   homeObjFive,
   slideShowObj,
+  homeObjSix,
 } from "./data";
 
 const Packages = () => {
@@ -20,6 +21,7 @@ const Packages = () => {
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
+      <InfoSection {...homeObjSix} />
     </>
   );
 };

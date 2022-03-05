@@ -6,8 +6,8 @@ export const trip_kkk = {
   lightTextDesc: true,
   headline: "Ladakh",
   topLine: "",
-  description: ``,
-  img: "wilderness.svg",
+  description: `This part of the Greater Himalaya, dubbed as the "Moon on Earth" because of its bare peaks and deep gorges, was previously famed for the silk route to Asia from the subcontinent and has emerged as a key destination for adventure tourism and has developed as a significant destination for Ladakh is home to the state's minority Buddhist community. For hundreds of years, they have preserved their distinct identity. The Leh Palace, Namgyal Tsemo Gompa, Sankar Gompa, Shanti Stupa, and Soma Gompa are the main attractions. Religion, rites and rituals, fairs and festivals, landscape, people, language, and culture are all diverse.`,
+  img: "https://images.unsplash.com/photo-1610716942672-ac90487defe1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
   alt: "Image",
   start: "",
 };

@@ -6,7 +6,13 @@ export const trip = {
   lightTextDesc: true,
   headline: "Doodhpatheri",
   topLine: "",
-  description: ``,
+  description: `Doodhpathri is one of the most beautiful and unexplored places in the district of Budgam in the Kashmir Valley,
+
+  It is surrounded by tall gymnosperms. The lush green grass over the vast meadows and silver-shining streams
+  
+  Running over the large stones further increases its beauty. Dense, humid forests provide favourable conditions for
+  
+  moss development`,
   img: "https://images.unsplash.com/photo-1597076312431-f91f36d3c04a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   alt: "Image",
   start: "",

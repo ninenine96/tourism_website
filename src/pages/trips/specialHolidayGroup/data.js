@@ -6,7 +6,8 @@ export const trip_kkk = {
   lightTextDesc: true,
   headline: "Special Family Holiday",
   topLine: "5 Night 6 Days",
-  description: "",
+  description:
+    "Kashmir is the place where you can let your inner adventurer out. If you too are an adventure enthusiast, don’t just dream of it, come and live it here. Kashmir offers you golfing, skiing, trekking, river rafting, mountain biking, Shikara rides, and wildlife safaris. This place will entice you with its captivating evergreen meadows, pastures, and majestic mountain peaks. These adventure sports in Kashmir will transport you to a different world. You will get to gaze at snow-capped mountains, mesmerising gardens, green fields and experience the ever-fantastic Shikara rides on Dal Lake in Srinagar. Come right away and live your dream.",
   img: "https://images.unsplash.com/photo-1579457870378-16e766c0c266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
   alt: "Image",
   start: "",

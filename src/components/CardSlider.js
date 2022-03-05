@@ -261,7 +261,10 @@ export const CardSliderPackagesTop = ({ slides }) => {
                 ></div>
 
                 <p className="slider-card-title">{slide.title}</p>
-                <p className="slider-card-description">{slide.description}</p>
+                <p className="slider-card-description">
+                  {slide.description}
+                  <b className="slider-card-price">{slide.price}</b>
+                </p>
               </div>
             </Link>
           );
@@ -308,7 +311,10 @@ export const CardSliderPackagesBottom = ({ slides }) => {
                 ></div>
 
                 <p className="slider-card-title">{slide.title}</p>
-                <p className="slider-card-description">{slide.description}</p>
+                <p className="slider-card-description">
+                  {slide.description}
+                  <b className="slider-card-price">{slide.price}</b>
+                </p>
               </div>
             </Link>
           );

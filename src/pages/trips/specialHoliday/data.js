@@ -6,8 +6,9 @@ export const trip_kkk = {
   lightTextDesc: true,
   headline: "Special Family Holiday",
   topLine: "Family Package 6 Days Package",
-  description: "",
-  img: "holidays.svg",
+  description:
+    "Do not wait until you are dying to go on vacation. I think if I had to give you one piece of advice, that would be it. We put things off. We do not mean to, but we do. We carry around the assumption that there is plenty of time to do whatever needs to be done.",
+  img: "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1054&q=80",
   alt: "Image",
   start: "",
 };

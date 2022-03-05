@@ -6,7 +6,8 @@ export const trip_kkk = {
   lightTextDesc: true,
   headline: "Special Honeymoon Package",
   topLine: "5 Night 6 Days With Candle Light Dinner",
-  description: "",
+  description:
+    "Celebrate the new beginning of your life with the most lovely person ever, chosing destinations is more complicated then chosing your wedding dress, when Europe is  out of reach and out of pocket doesn't mean you need to compromise, when your own country offers you more with cheap price, come and celebrate your special moments with your own people and make it memorable.",
   img: "https://images.unsplash.com/photo-1511405889574-b01de1da5441?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   alt: "Image",
   start: "",

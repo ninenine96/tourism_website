@@ -6,8 +6,9 @@ export const trip = {
   lightTextDesc: true,
   headline: "Aharbal",
   topLine: "",
-  description: ``,
-  img: "https://images.unsplash.com/photo-1531520140596-076b6929bc69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  description: `Aharbal lies in the Kulgam district's Noorabad Area of Jammu and Kashmir it is located on the Veshu  River (or Veshaw River) , a tributary of the Jehlum River, in an alpine valley covered in pine and fir trees within the Pir Panjal Mountains. It lies at an altitude of 2266 meters above sea level. Due to mesmerising look of meadows, pine and fir trees, the abutting snow clad mountains, the waterfall attracts many Indian and international tourists . Aharbal Waterfall is also known as Niagara Waterfall of Kashmir.
+  `,
+  img: "https://images.unsplash.com/photo-1508131482539-2b57b21ca1ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
   alt: "Image",
   start: "",
 };

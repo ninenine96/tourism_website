@@ -122,6 +122,11 @@
   font-size: 13px;
 }
 
+.slider-card-price {
+  opacity: 0.9;
+  font-size: 15px;
+}
+
 .slider-card-image {
   width: 100%;
   height: 220px;

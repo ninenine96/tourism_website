@@ -6,7 +6,7 @@ export const trip_kkk = {
   lightTextDesc: true,
   headline: "Kashmir-Katra",
   topLine: "",
-  description: ``,
+  description: `Jammu is known for its ancient temples, Hindu shrines, gardens, and forts. The temple of Maha Kali (better known as Bahu or Bawey WaliMata), located in the Bahu Fort, is considered second only to Mata Vaishno Devi in terms of mystical power. The temple was built shortly after the coronation of Maharaja Gulab Singh in 1822. Other temples in the city include the Gauri Kund Temple, Shudh Mahadev Temple, Shiva Temple, Peer Khoh Cave Temple, Ranbireshwar Temple, and the Paramandal Temple Complex. Jammu’s historic monuments feature a unique blend of Islamic and Hindu architectural styles.`,
   img: "https://images.unsplash.com/photo-1642474620271-58886d90551d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
   alt: "Image",
   start: "",

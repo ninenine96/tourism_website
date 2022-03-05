@@ -6,7 +6,7 @@ export const trip = {
   lightTextDesc: true,
   headline: "Srinagar",
   topLine: "",
-  description: ``,
+  description: `Dal Lake is the second largest lake in Jammu and Kashmir and is known as the "Jewel in the Crown" and the "Lake of Flowers". It's a lake with 2 islands (Sona Lank and Rupa Lank Char Chinar) that also have Floating Gardens, Meena Bazar, and water plants. Cruising along the lake, it stretches over 16 sq.km and is divided into 4 parts, namely Gagribal, Lokut-Dal, Bod-Dal and Nigeen, also known as Nigeen lake. There is a whole new world hidden in it. You have to explore this iconic lake to witness its hidden world. You must stay in the elegant houseboats, and a Shikara ride in a colorful, magnificent boat with a comfortable cushion seat and vibrant coloured curtains is a must.`,
   img: "https://images.unsplash.com/photo-1564329494258-3f72215ba175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
   alt: "Image",
   start: "",
