@@ -45,6 +45,11 @@ video {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.hero-subtitle {
+  color: #fff;
+  font-size: 30px;
+}
+
 .fa-play-circle {
   margin-left: 4px;
 }
@@ -73,5 +78,9 @@ video {
 
   .btn {
     width: 100%;
+  }
+
+  .hero-subtitle {
+    font-size: 24px;
   }
 }

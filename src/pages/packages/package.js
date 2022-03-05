@@ -16,7 +16,7 @@ const Packages = () => {
   return (
     <>
       <InfoSectionSlideShow {...slideShowObj} />
-      <InfoSection animate={{ scale: 5 }} {...homeObjOne} />
+      <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />

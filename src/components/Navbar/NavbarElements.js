@@ -70,12 +70,12 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    width: 100vw;
     position: absolute;
     top: 80px;
-    left: ${({ click }) => (click ? 0 : "-100%")};
+    left: ${({ click }) => (click ? 0 : "-500%")};
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     background: radial-gradient(
       circle 610px at 5.2% 1.6%,
       rgba(5, 8, 114, 1) 0%,

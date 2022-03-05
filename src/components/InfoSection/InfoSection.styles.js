@@ -46,7 +46,7 @@ export const InfoColumn = styled.div`
   @media screen and (max-width: 900px) {
     max-width: 100%;
     width: 100vw;
-    flex-basis: 50%;
+    flex-basis: 80%;
     display: flex;
     justify-content: center;
   }
@@ -234,6 +234,9 @@ export const ImgSS = styled.img`
   background-size: contain important;
   background-repeat: no-repeat !important;
   position: relative;
+  @media screen and (max-width: 765px) {
+    height: 300px;
+  }
 `;
 
 export const HeadingSS = styled.h1`
