@@ -20,8 +20,8 @@ import {
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
-  FaTwitter,
+  // FaYoutube,
+  // FaTwitter,
   FaPhone,
   FaAddressCard,
   FaMailBulk,
