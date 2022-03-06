@@ -1,9 +1,9 @@
 export const trip_kkk = {
-  lightBg: !true,
+  lightBg: true,
   imgStart: "flex-end",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: !true,
+  lightText: !true,
+  lightTextDesc: !true,
   headline: "Kashmir-Katra-Amritsar",
   topLine: "8 Nights 9 Days",
   description: `

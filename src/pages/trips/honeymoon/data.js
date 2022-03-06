@@ -5,7 +5,7 @@ export const trip_kkk = {
   lightText: !true,
   lightTextDesc: !true,
   headline: "Honeymoon Package",
-  topLine: "5 Night 6 Days With Candle Light Dinner",
+  topLine: "5 Night 6 Days",
   description:
     "Enjoy The Dal Lake Local sightseeing 50 Kms (Mughal Gardens) On arrival at Srinagar Airport, you will be met by our representative/driver at the airport and transfer you to Hotel. Half day tour of world famous Dal Lake. ",
   img: "https://images.unsplash.com/photo-1529516222410-a269d812f320?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",

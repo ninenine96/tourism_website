@@ -1,9 +1,9 @@
 export const trip_kkk = {
-  lightBg: !true,
+  lightBg: true,
   imgStart: "flex-end",
-  lightTopLine: true,
-  lightText: true,
-  lightTextDesc: true,
+  lightTopLine: !true,
+  lightText: !true,
+  lightTextDesc: !true,
   headline: "Special Family Holiday",
   topLine: "5 Night 6 Days",
   description:

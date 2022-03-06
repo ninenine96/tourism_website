@@ -5,7 +5,7 @@ import {
   FooterLinksWrapper,
   FooterLinksItems,
   FooterLinkTitle,
-  FooterLink,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -45,23 +45,28 @@ const Footer = () => {
               Kashmir:193201
             </FooterLinkP>
 
-            <FooterLink to="/mail">
+            {/* <FooterLink to=""> */}
+            <FooterLinkP>
               <FaMailBulk />
               {"\t"}info@kashmirvendor.com
-            </FooterLink>
-            <FooterLink to="/whatsapp">
+            </FooterLinkP>
+            <FooterURL href="https://wa.me/9622660909">
               <FaWhatsapp />
               {"\t"}9622660909
-            </FooterLink>
+            </FooterURL>
           </FooterLinksItems>
         </FooterLinksWrapper>
 
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterURL href="https://facebook.com">Facebook</FooterURL>
-            <FooterURL href="https://Instagram.com">Instagram</FooterURL>
-            <FooterURL href="https://whatsapp.com">WhatsApp</FooterURL>
+            <FooterURL href="https://www.facebook.com/KashmirVendor-109221331552388/">
+              Facebook
+            </FooterURL>
+            <FooterURL href="https://www.instagram.com/kashmirvendor/">
+              Instagram
+            </FooterURL>
+            <FooterURL href="https://wa.me/9622660909">WhatsApp</FooterURL>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -73,7 +78,7 @@ const Footer = () => {
           <WebsiteRights>M.R. Sofi © 2022</WebsiteRights>
           <SocialIcons>
             <SocialIconLink
-              href="https://facebook.com"
+              href="https://www.facebook.com/KashmirVendor-109221331552388/"
               target="_blank"
               aria-label="Facebook"
             >
@@ -81,24 +86,24 @@ const Footer = () => {
             </SocialIconLink>
 
             <SocialIconLink
-              href="https://Instagram.com"
+              href="https://www.instagram.com/kashmirvendor/"
               target="_blank"
               aria-label="Instagram"
             >
               <FaInstagram />
             </SocialIconLink>
 
-            <SocialIconLink
+            {/* <SocialIconLink
               href="/"
               rel="noopener noreferrer"
               target="_blank"
               aria-label="Youtube"
             >
               <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+            </SocialIconLink> */}
+            {/* <SocialIconLink href="/" target="_blank" aria-label="Twitter">
               <FaTwitter />
-            </SocialIconLink>
+            </SocialIconLink> */}
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>

@@ -178,11 +178,15 @@ export const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  text-align: center;
+  text-align: left;
+
   cursor: pointer;
   h1 {
     padding: 2rem;
     font-size: 1.3rem;
+    @media screen {
+      font-size: 1rem;
+    }
   }
   span {
     margin-right: 1.5rem;

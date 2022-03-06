@@ -7,7 +7,7 @@ import {
 } from "../../components/footer/styles/footer";
 import { InfoSecForm } from "../../components/InfoSection/InfoSection.styles";
 import { Button } from "../../globalStles";
-import { InfoSectionAbout } from "../../components/InfoSection/InfoSection";
+import { InfoSectionFAQ } from "../../components/InfoSection/InfoSection";
 import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
@@ -49,7 +49,7 @@ const ContactUs = () => {
   };
   return (
     <>
-      <InfoSectionAbout {...dataContactUs} />
+      <InfoSectionFAQ {...dataContactUs} />
       <InfoSecForm>
         <Form ref={form} onSubmit={sendEmail}>
           <FormInput
@@ -92,7 +92,12 @@ const ContactUs = () => {
               Special Family Holiday
             </Option>
             <Option value="Kashmir-Katra">Kashmir-Katra</Option>
-            <Option value="Ladakh">Ladakh</Option>
+            <Option value="Ladakh Premium">Ladakh Premium</Option>
+            <Option value="Ladakh-Bonfire">Ladakh Bonfire</Option>
+            <Option value="Tulip-garden">Tulip Garden</Option>
+            <Option value="Aharbal">Aharbal</Option>
+            <Option value="Srinagar">Srinagar</Option>
+            <Option value="Doodpatheri">Doodhpatheri</Option>
           </Selection>
           <Button fontBig mt="20px 0">
             Submit
